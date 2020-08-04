@@ -6,70 +6,71 @@ import java.util.ArrayList;
 public class Convert {
 
     // test done
-    public static String convert2Copperplate(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝓐");
-        Copperplate_Upper.add("𝓑");
-        Copperplate_Upper.add("𝓒");
-        Copperplate_Upper.add("𝓓");
-        Copperplate_Upper.add("𝓔");
-        Copperplate_Upper.add("𝓕");
-        Copperplate_Upper.add("𝓖");
-        Copperplate_Upper.add("𝓗");
-        Copperplate_Upper.add("𝓘");
-        Copperplate_Upper.add("𝓙");
-        Copperplate_Upper.add("𝓚");
-        Copperplate_Upper.add("𝓛");
-        Copperplate_Upper.add("𝓜");
-        Copperplate_Upper.add("𝓝");
-        Copperplate_Upper.add("𝓞");
-        Copperplate_Upper.add("𝓟");
-        Copperplate_Upper.add("𝓠");
-        Copperplate_Upper.add("𝓡");
-        Copperplate_Upper.add("𝓢");
-        Copperplate_Upper.add("𝓣");
-        Copperplate_Upper.add("𝓤");
-        Copperplate_Upper.add("𝓥");
-        Copperplate_Upper.add("𝓦");
-        Copperplate_Upper.add("𝓧");
-        Copperplate_Upper.add("𝓨");
-        Copperplate_Upper.add("𝓩");
+    public static String convert2style0(String string_in) {
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝓪");
-        Copperplate_Lower.add("𝓫");
-        Copperplate_Lower.add("𝓬");
-        Copperplate_Lower.add("𝓭");
-        Copperplate_Lower.add("𝓮");
-        Copperplate_Lower.add("𝓯");
-        Copperplate_Lower.add("𝓰");
-        Copperplate_Lower.add("𝓱");
-        Copperplate_Lower.add("𝓲");
-        Copperplate_Lower.add("𝓳");
-        Copperplate_Lower.add("𝓴");
-        Copperplate_Lower.add("𝓵");
-        Copperplate_Lower.add("𝓶");
-        Copperplate_Lower.add("𝓷");
-        Copperplate_Lower.add("𝓸");
-        Copperplate_Lower.add("𝓹");
-        Copperplate_Lower.add("𝓺");
-        Copperplate_Lower.add("𝓻");
-        Copperplate_Lower.add("𝓼");
-        Copperplate_Lower.add("𝓽");
-        Copperplate_Lower.add("𝓾");
-        Copperplate_Lower.add("𝓿");
-        Copperplate_Lower.add("𝔀");
-        Copperplate_Lower.add("𝔁");
-        Copperplate_Lower.add("𝔂");
-        Copperplate_Lower.add("𝔃");
+        Style_Upper.add("𝓐");
+        Style_Upper.add("𝓑");
+        Style_Upper.add("𝓒");
+        Style_Upper.add("𝓓");
+        Style_Upper.add("𝓔");
+        Style_Upper.add("𝓕");
+        Style_Upper.add("𝓖");
+        Style_Upper.add("𝓗");
+        Style_Upper.add("𝓘");
+        Style_Upper.add("𝓙");
+        Style_Upper.add("𝓚");
+        Style_Upper.add("𝓛");
+        Style_Upper.add("𝓜");
+        Style_Upper.add("𝓝");
+        Style_Upper.add("𝓞");
+        Style_Upper.add("𝓟");
+        Style_Upper.add("𝓠");
+        Style_Upper.add("𝓡");
+        Style_Upper.add("𝓢");
+        Style_Upper.add("𝓣");
+        Style_Upper.add("𝓤");
+        Style_Upper.add("𝓥");
+        Style_Upper.add("𝓦");
+        Style_Upper.add("𝓧");
+        Style_Upper.add("𝓨");
+        Style_Upper.add("𝓩");
+
+        Style_Lower.add("𝓪");
+        Style_Lower.add("𝓫");
+        Style_Lower.add("𝓬");
+        Style_Lower.add("𝓭");
+        Style_Lower.add("𝓮");
+        Style_Lower.add("𝓯");
+        Style_Lower.add("𝓰");
+        Style_Lower.add("𝓱");
+        Style_Lower.add("𝓲");
+        Style_Lower.add("𝓳");
+        Style_Lower.add("𝓴");
+        Style_Lower.add("𝓵");
+        Style_Lower.add("𝓶");
+        Style_Lower.add("𝓷");
+        Style_Lower.add("𝓸");
+        Style_Lower.add("𝓹");
+        Style_Lower.add("𝓺");
+        Style_Lower.add("𝓻");
+        Style_Lower.add("𝓼");
+        Style_Lower.add("𝓽");
+        Style_Lower.add("𝓾");
+        Style_Lower.add("𝓿");
+        Style_Lower.add("𝔀");
+        Style_Lower.add("𝔁");
+        Style_Lower.add("𝔂");
+        Style_Lower.add("𝔃");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -79,69 +80,70 @@ public class Convert {
     }
 
     public static String convert2type1(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝐀");
-        Copperplate_Upper.add("𝐁");
-        Copperplate_Upper.add("𝐂");
-        Copperplate_Upper.add("𝐃");
-        Copperplate_Upper.add("𝐄");
-        Copperplate_Upper.add("𝐅");
-        Copperplate_Upper.add("𝐆");
-        Copperplate_Upper.add("𝐇");
-        Copperplate_Upper.add("𝐈");
-        Copperplate_Upper.add("𝐉");
-        Copperplate_Upper.add("𝐊");
-        Copperplate_Upper.add("𝐋");
-        Copperplate_Upper.add("𝐌");
-        Copperplate_Upper.add("𝐍");
-        Copperplate_Upper.add("𝐎");
-        Copperplate_Upper.add("𝐏");
-        Copperplate_Upper.add("𝐐");
-        Copperplate_Upper.add("𝐑");
-        Copperplate_Upper.add("𝐒");
-        Copperplate_Upper.add("𝐓");
-        Copperplate_Upper.add("𝐔");
-        Copperplate_Upper.add("𝐕");
-        Copperplate_Upper.add("𝐖");
-        Copperplate_Upper.add("𝐗");
-        Copperplate_Upper.add("𝐘");
-        Copperplate_Upper.add("𝐙");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝐚");
-        Copperplate_Lower.add("𝐛");
-        Copperplate_Lower.add("𝐜");
-        Copperplate_Lower.add("𝐝");
-        Copperplate_Lower.add("𝐞");
-        Copperplate_Lower.add("𝐟");
-        Copperplate_Lower.add("𝐠");
-        Copperplate_Lower.add("𝐡");
-        Copperplate_Lower.add("𝐢");
-        Copperplate_Lower.add("𝐣");
-        Copperplate_Lower.add("𝐤");
-        Copperplate_Lower.add("𝐥");
-        Copperplate_Lower.add("𝐦");
-        Copperplate_Lower.add("𝐧");
-        Copperplate_Lower.add("𝐨");
-        Copperplate_Lower.add("𝐩");
-        Copperplate_Lower.add("𝐪");
-        Copperplate_Lower.add("𝐫");
-        Copperplate_Lower.add("𝐬");
-        Copperplate_Lower.add("𝐭");
-        Copperplate_Lower.add("𝐮");
-        Copperplate_Lower.add("𝐯");
-        Copperplate_Lower.add("𝐰");
-        Copperplate_Lower.add("𝐱");
-        Copperplate_Lower.add("𝐲");
-        Copperplate_Lower.add("𝐳");
+        Style_Upper.add("𝐀");
+        Style_Upper.add("𝐁");
+        Style_Upper.add("𝐂");
+        Style_Upper.add("𝐃");
+        Style_Upper.add("𝐄");
+        Style_Upper.add("𝐅");
+        Style_Upper.add("𝐆");
+        Style_Upper.add("𝐇");
+        Style_Upper.add("𝐈");
+        Style_Upper.add("𝐉");
+        Style_Upper.add("𝐊");
+        Style_Upper.add("𝐋");
+        Style_Upper.add("𝐌");
+        Style_Upper.add("𝐍");
+        Style_Upper.add("𝐎");
+        Style_Upper.add("𝐏");
+        Style_Upper.add("𝐐");
+        Style_Upper.add("𝐑");
+        Style_Upper.add("𝐒");
+        Style_Upper.add("𝐓");
+        Style_Upper.add("𝐔");
+        Style_Upper.add("𝐕");
+        Style_Upper.add("𝐖");
+        Style_Upper.add("𝐗");
+        Style_Upper.add("𝐘");
+        Style_Upper.add("𝐙");
+
+        Style_Lower.add("𝐚");
+        Style_Lower.add("𝐛");
+        Style_Lower.add("𝐜");
+        Style_Lower.add("𝐝");
+        Style_Lower.add("𝐞");
+        Style_Lower.add("𝐟");
+        Style_Lower.add("𝐠");
+        Style_Lower.add("𝐡");
+        Style_Lower.add("𝐢");
+        Style_Lower.add("𝐣");
+        Style_Lower.add("𝐤");
+        Style_Lower.add("𝐥");
+        Style_Lower.add("𝐦");
+        Style_Lower.add("𝐧");
+        Style_Lower.add("𝐨");
+        Style_Lower.add("𝐩");
+        Style_Lower.add("𝐪");
+        Style_Lower.add("𝐫");
+        Style_Lower.add("𝐬");
+        Style_Lower.add("𝐭");
+        Style_Lower.add("𝐮");
+        Style_Lower.add("𝐯");
+        Style_Lower.add("𝐰");
+        Style_Lower.add("𝐱");
+        Style_Lower.add("𝐲");
+        Style_Lower.add("𝐳");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -151,69 +153,70 @@ public class Convert {
     }
 
     public static String convert2type2(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝗔");
-        Copperplate_Upper.add("𝗕");
-        Copperplate_Upper.add("𝗖");
-        Copperplate_Upper.add("𝗗");
-        Copperplate_Upper.add("𝗘");
-        Copperplate_Upper.add("𝗙");
-        Copperplate_Upper.add("𝗚");
-        Copperplate_Upper.add("𝗛");
-        Copperplate_Upper.add("𝗜");
-        Copperplate_Upper.add("𝗝");
-        Copperplate_Upper.add("𝗞");
-        Copperplate_Upper.add("𝗟");
-        Copperplate_Upper.add("𝗠");
-        Copperplate_Upper.add("𝗡");
-        Copperplate_Upper.add("𝗢");
-        Copperplate_Upper.add("𝗣");
-        Copperplate_Upper.add("𝗤");
-        Copperplate_Upper.add("𝗥");
-        Copperplate_Upper.add("𝗦");
-        Copperplate_Upper.add("𝗧");
-        Copperplate_Upper.add("𝗨");
-        Copperplate_Upper.add("𝗩");
-        Copperplate_Upper.add("𝗪");
-        Copperplate_Upper.add("𝗫");
-        Copperplate_Upper.add("𝗬");
-        Copperplate_Upper.add("𝗭");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝗮");
-        Copperplate_Lower.add("𝗯");
-        Copperplate_Lower.add("𝗰");
-        Copperplate_Lower.add("𝗱");
-        Copperplate_Lower.add("𝗲");
-        Copperplate_Lower.add("𝗳");
-        Copperplate_Lower.add("𝗴");
-        Copperplate_Lower.add("𝗵");
-        Copperplate_Lower.add("𝗶");
-        Copperplate_Lower.add("𝗷");
-        Copperplate_Lower.add("𝗸");
-        Copperplate_Lower.add("𝗹");
-        Copperplate_Lower.add("𝗺");
-        Copperplate_Lower.add("𝗻");
-        Copperplate_Lower.add("𝗼");
-        Copperplate_Lower.add("𝗽");
-        Copperplate_Lower.add("𝗾");
-        Copperplate_Lower.add("𝗿");
-        Copperplate_Lower.add("𝘀");
-        Copperplate_Lower.add("𝘁");
-        Copperplate_Lower.add("𝘂");
-        Copperplate_Lower.add("𝘃");
-        Copperplate_Lower.add("𝘄");
-        Copperplate_Lower.add("𝘅");
-        Copperplate_Lower.add("𝘆");
-        Copperplate_Lower.add("𝘇");
+        Style_Upper.add("𝗔");
+        Style_Upper.add("𝗕");
+        Style_Upper.add("𝗖");
+        Style_Upper.add("𝗗");
+        Style_Upper.add("𝗘");
+        Style_Upper.add("𝗙");
+        Style_Upper.add("𝗚");
+        Style_Upper.add("𝗛");
+        Style_Upper.add("𝗜");
+        Style_Upper.add("𝗝");
+        Style_Upper.add("𝗞");
+        Style_Upper.add("𝗟");
+        Style_Upper.add("𝗠");
+        Style_Upper.add("𝗡");
+        Style_Upper.add("𝗢");
+        Style_Upper.add("𝗣");
+        Style_Upper.add("𝗤");
+        Style_Upper.add("𝗥");
+        Style_Upper.add("𝗦");
+        Style_Upper.add("𝗧");
+        Style_Upper.add("𝗨");
+        Style_Upper.add("𝗩");
+        Style_Upper.add("𝗪");
+        Style_Upper.add("𝗫");
+        Style_Upper.add("𝗬");
+        Style_Upper.add("𝗭");
+
+        Style_Lower.add("𝗮");
+        Style_Lower.add("𝗯");
+        Style_Lower.add("𝗰");
+        Style_Lower.add("𝗱");
+        Style_Lower.add("𝗲");
+        Style_Lower.add("𝗳");
+        Style_Lower.add("𝗴");
+        Style_Lower.add("𝗵");
+        Style_Lower.add("𝗶");
+        Style_Lower.add("𝗷");
+        Style_Lower.add("𝗸");
+        Style_Lower.add("𝗹");
+        Style_Lower.add("𝗺");
+        Style_Lower.add("𝗻");
+        Style_Lower.add("𝗼");
+        Style_Lower.add("𝗽");
+        Style_Lower.add("𝗾");
+        Style_Lower.add("𝗿");
+        Style_Lower.add("𝘀");
+        Style_Lower.add("𝘁");
+        Style_Lower.add("𝘂");
+        Style_Lower.add("𝘃");
+        Style_Lower.add("𝘄");
+        Style_Lower.add("𝘅");
+        Style_Lower.add("𝘆");
+        Style_Lower.add("𝘇");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -223,69 +226,70 @@ public class Convert {
     }
 
     public static String convert2type3(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝘈");
-        Copperplate_Upper.add("𝘉");
-        Copperplate_Upper.add("𝘊");
-        Copperplate_Upper.add("𝘋");
-        Copperplate_Upper.add("𝘌");
-        Copperplate_Upper.add("𝘍");
-        Copperplate_Upper.add("𝘎");
-        Copperplate_Upper.add("𝘏");
-        Copperplate_Upper.add("𝘐");
-        Copperplate_Upper.add("𝘑");
-        Copperplate_Upper.add("𝘒");
-        Copperplate_Upper.add("𝘓");
-        Copperplate_Upper.add("𝘔");
-        Copperplate_Upper.add("𝘕");
-        Copperplate_Upper.add("𝘖");
-        Copperplate_Upper.add("𝘗");
-        Copperplate_Upper.add("𝘘");
-        Copperplate_Upper.add("𝘙");
-        Copperplate_Upper.add("𝘚");
-        Copperplate_Upper.add("𝘛");
-        Copperplate_Upper.add("𝘜");
-        Copperplate_Upper.add("𝘝");
-        Copperplate_Upper.add("𝘞");
-        Copperplate_Upper.add("𝘟");
-        Copperplate_Upper.add("𝘠");
-        Copperplate_Upper.add("𝘡");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝘢");
-        Copperplate_Lower.add("𝘣");
-        Copperplate_Lower.add("𝘤");
-        Copperplate_Lower.add("𝘥");
-        Copperplate_Lower.add("𝘦");
-        Copperplate_Lower.add("𝘧");
-        Copperplate_Lower.add("𝘨");
-        Copperplate_Lower.add("𝘩");
-        Copperplate_Lower.add("𝘪");
-        Copperplate_Lower.add("𝘫");
-        Copperplate_Lower.add("𝘬");
-        Copperplate_Lower.add("𝘭");
-        Copperplate_Lower.add("𝘮");
-        Copperplate_Lower.add("𝘯");
-        Copperplate_Lower.add("𝘰");
-        Copperplate_Lower.add("𝘱");
-        Copperplate_Lower.add("𝘲");
-        Copperplate_Lower.add("𝘳");
-        Copperplate_Lower.add("𝘴");
-        Copperplate_Lower.add("𝘵");
-        Copperplate_Lower.add("𝘶");
-        Copperplate_Lower.add("𝘷");
-        Copperplate_Lower.add("𝘸");
-        Copperplate_Lower.add("𝘹");
-        Copperplate_Lower.add("𝘺");
-        Copperplate_Lower.add("𝘻");
+        Style_Upper.add("𝘈");
+        Style_Upper.add("𝘉");
+        Style_Upper.add("𝘊");
+        Style_Upper.add("𝘋");
+        Style_Upper.add("𝘌");
+        Style_Upper.add("𝘍");
+        Style_Upper.add("𝘎");
+        Style_Upper.add("𝘏");
+        Style_Upper.add("𝘐");
+        Style_Upper.add("𝘑");
+        Style_Upper.add("𝘒");
+        Style_Upper.add("𝘓");
+        Style_Upper.add("𝘔");
+        Style_Upper.add("𝘕");
+        Style_Upper.add("𝘖");
+        Style_Upper.add("𝘗");
+        Style_Upper.add("𝘘");
+        Style_Upper.add("𝘙");
+        Style_Upper.add("𝘚");
+        Style_Upper.add("𝘛");
+        Style_Upper.add("𝘜");
+        Style_Upper.add("𝘝");
+        Style_Upper.add("𝘞");
+        Style_Upper.add("𝘟");
+        Style_Upper.add("𝘠");
+        Style_Upper.add("𝘡");
+
+        Style_Lower.add("𝘢");
+        Style_Lower.add("𝘣");
+        Style_Lower.add("𝘤");
+        Style_Lower.add("𝘥");
+        Style_Lower.add("𝘦");
+        Style_Lower.add("𝘧");
+        Style_Lower.add("𝘨");
+        Style_Lower.add("𝘩");
+        Style_Lower.add("𝘪");
+        Style_Lower.add("𝘫");
+        Style_Lower.add("𝘬");
+        Style_Lower.add("𝘭");
+        Style_Lower.add("𝘮");
+        Style_Lower.add("𝘯");
+        Style_Lower.add("𝘰");
+        Style_Lower.add("𝘱");
+        Style_Lower.add("𝘲");
+        Style_Lower.add("𝘳");
+        Style_Lower.add("𝘴");
+        Style_Lower.add("𝘵");
+        Style_Lower.add("𝘶");
+        Style_Lower.add("𝘷");
+        Style_Lower.add("𝘸");
+        Style_Lower.add("𝘹");
+        Style_Lower.add("𝘺");
+        Style_Lower.add("𝘻");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -295,69 +299,70 @@ public class Convert {
     }
 
     public static String convert2type4(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝘼");
-        Copperplate_Upper.add("𝘽");
-        Copperplate_Upper.add("𝘾");
-        Copperplate_Upper.add("𝘿");
-        Copperplate_Upper.add("𝙀");
-        Copperplate_Upper.add("𝙁");
-        Copperplate_Upper.add("𝙂");
-        Copperplate_Upper.add("𝙃");
-        Copperplate_Upper.add("𝙄");
-        Copperplate_Upper.add("𝙅");
-        Copperplate_Upper.add("𝙆");
-        Copperplate_Upper.add("𝙇");
-        Copperplate_Upper.add("𝙈");
-        Copperplate_Upper.add("𝙉");
-        Copperplate_Upper.add("𝙊");
-        Copperplate_Upper.add("𝙋");
-        Copperplate_Upper.add("𝙌");
-        Copperplate_Upper.add("𝙍");
-        Copperplate_Upper.add("𝙎");
-        Copperplate_Upper.add("𝙏");
-        Copperplate_Upper.add("𝙐");
-        Copperplate_Upper.add("𝙑");
-        Copperplate_Upper.add("𝙒");
-        Copperplate_Upper.add("𝙓");
-        Copperplate_Upper.add("𝙔");
-        Copperplate_Upper.add("𝙕");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝙖");
-        Copperplate_Lower.add("𝙗");
-        Copperplate_Lower.add("𝙘");
-        Copperplate_Lower.add("𝙙");
-        Copperplate_Lower.add("𝙚");
-        Copperplate_Lower.add("𝙛");
-        Copperplate_Lower.add("𝙜");
-        Copperplate_Lower.add("𝙝");
-        Copperplate_Lower.add("𝙞");
-        Copperplate_Lower.add("𝙟");
-        Copperplate_Lower.add("𝙠");
-        Copperplate_Lower.add("𝙡");
-        Copperplate_Lower.add("𝙢");
-        Copperplate_Lower.add("𝙣");
-        Copperplate_Lower.add("𝙤");
-        Copperplate_Lower.add("𝙥");
-        Copperplate_Lower.add("𝙦");
-        Copperplate_Lower.add("𝙧");
-        Copperplate_Lower.add("𝙨");
-        Copperplate_Lower.add("𝙩");
-        Copperplate_Lower.add("𝙪");
-        Copperplate_Lower.add("𝙫");
-        Copperplate_Lower.add("𝙬");
-        Copperplate_Lower.add("𝙭");
-        Copperplate_Lower.add("𝙮");
-        Copperplate_Lower.add("𝙯");
+        Style_Upper.add("𝘼");
+        Style_Upper.add("𝘽");
+        Style_Upper.add("𝘾");
+        Style_Upper.add("𝘿");
+        Style_Upper.add("𝙀");
+        Style_Upper.add("𝙁");
+        Style_Upper.add("𝙂");
+        Style_Upper.add("𝙃");
+        Style_Upper.add("𝙄");
+        Style_Upper.add("𝙅");
+        Style_Upper.add("𝙆");
+        Style_Upper.add("𝙇");
+        Style_Upper.add("𝙈");
+        Style_Upper.add("𝙉");
+        Style_Upper.add("𝙊");
+        Style_Upper.add("𝙋");
+        Style_Upper.add("𝙌");
+        Style_Upper.add("𝙍");
+        Style_Upper.add("𝙎");
+        Style_Upper.add("𝙏");
+        Style_Upper.add("𝙐");
+        Style_Upper.add("𝙑");
+        Style_Upper.add("𝙒");
+        Style_Upper.add("𝙓");
+        Style_Upper.add("𝙔");
+        Style_Upper.add("𝙕");
+
+        Style_Lower.add("𝙖");
+        Style_Lower.add("𝙗");
+        Style_Lower.add("𝙘");
+        Style_Lower.add("𝙙");
+        Style_Lower.add("𝙚");
+        Style_Lower.add("𝙛");
+        Style_Lower.add("𝙜");
+        Style_Lower.add("𝙝");
+        Style_Lower.add("𝙞");
+        Style_Lower.add("𝙟");
+        Style_Lower.add("𝙠");
+        Style_Lower.add("𝙡");
+        Style_Lower.add("𝙢");
+        Style_Lower.add("𝙣");
+        Style_Lower.add("𝙤");
+        Style_Lower.add("𝙥");
+        Style_Lower.add("𝙦");
+        Style_Lower.add("𝙧");
+        Style_Lower.add("𝙨");
+        Style_Lower.add("𝙩");
+        Style_Lower.add("𝙪");
+        Style_Lower.add("𝙫");
+        Style_Lower.add("𝙬");
+        Style_Lower.add("𝙭");
+        Style_Lower.add("𝙮");
+        Style_Lower.add("𝙯");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -367,69 +372,70 @@ public class Convert {
     }
 
     public static String convert2type5(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝑨");
-        Copperplate_Upper.add("𝑩");
-        Copperplate_Upper.add("𝑪");
-        Copperplate_Upper.add("𝑫");
-        Copperplate_Upper.add("𝑬");
-        Copperplate_Upper.add("𝑭");
-        Copperplate_Upper.add("𝑮");
-        Copperplate_Upper.add("𝑯");
-        Copperplate_Upper.add("𝑰");
-        Copperplate_Upper.add("𝑱");
-        Copperplate_Upper.add("𝑲");
-        Copperplate_Upper.add("𝑳");
-        Copperplate_Upper.add("𝑴");
-        Copperplate_Upper.add("𝑵");
-        Copperplate_Upper.add("𝑶");
-        Copperplate_Upper.add("𝑷");
-        Copperplate_Upper.add("𝑸");
-        Copperplate_Upper.add("𝑹");
-        Copperplate_Upper.add("𝑺");
-        Copperplate_Upper.add("𝑻");
-        Copperplate_Upper.add("𝑼");
-        Copperplate_Upper.add("𝑽");
-        Copperplate_Upper.add("𝑾");
-        Copperplate_Upper.add("𝑿");
-        Copperplate_Upper.add("𝒀");
-        Copperplate_Upper.add("𝒁");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝒂");
-        Copperplate_Lower.add("𝒃");
-        Copperplate_Lower.add("𝒄");
-        Copperplate_Lower.add("𝒅");
-        Copperplate_Lower.add("𝒆");
-        Copperplate_Lower.add("𝒇");
-        Copperplate_Lower.add("𝒈");
-        Copperplate_Lower.add("𝒉");
-        Copperplate_Lower.add("𝒊");
-        Copperplate_Lower.add("𝒋");
-        Copperplate_Lower.add("𝒌");
-        Copperplate_Lower.add("𝒍");
-        Copperplate_Lower.add("𝒎");
-        Copperplate_Lower.add("𝒏");
-        Copperplate_Lower.add("𝒐");
-        Copperplate_Lower.add("𝒑");
-        Copperplate_Lower.add("𝒒");
-        Copperplate_Lower.add("𝒓");
-        Copperplate_Lower.add("𝒔");
-        Copperplate_Lower.add("𝒕");
-        Copperplate_Lower.add("𝒖");
-        Copperplate_Lower.add("𝒗");
-        Copperplate_Lower.add("𝒘");
-        Copperplate_Lower.add("𝒙");
-        Copperplate_Lower.add("𝒚");
-        Copperplate_Lower.add("𝒛");
+        Style_Upper.add("𝑨");
+        Style_Upper.add("𝑩");
+        Style_Upper.add("𝑪");
+        Style_Upper.add("𝑫");
+        Style_Upper.add("𝑬");
+        Style_Upper.add("𝑭");
+        Style_Upper.add("𝑮");
+        Style_Upper.add("𝑯");
+        Style_Upper.add("𝑰");
+        Style_Upper.add("𝑱");
+        Style_Upper.add("𝑲");
+        Style_Upper.add("𝑳");
+        Style_Upper.add("𝑴");
+        Style_Upper.add("𝑵");
+        Style_Upper.add("𝑶");
+        Style_Upper.add("𝑷");
+        Style_Upper.add("𝑸");
+        Style_Upper.add("𝑹");
+        Style_Upper.add("𝑺");
+        Style_Upper.add("𝑻");
+        Style_Upper.add("𝑼");
+        Style_Upper.add("𝑽");
+        Style_Upper.add("𝑾");
+        Style_Upper.add("𝑿");
+        Style_Upper.add("𝒀");
+        Style_Upper.add("𝒁");
+
+        Style_Lower.add("𝒂");
+        Style_Lower.add("𝒃");
+        Style_Lower.add("𝒄");
+        Style_Lower.add("𝒅");
+        Style_Lower.add("𝒆");
+        Style_Lower.add("𝒇");
+        Style_Lower.add("𝒈");
+        Style_Lower.add("𝒉");
+        Style_Lower.add("𝒊");
+        Style_Lower.add("𝒋");
+        Style_Lower.add("𝒌");
+        Style_Lower.add("𝒍");
+        Style_Lower.add("𝒎");
+        Style_Lower.add("𝒏");
+        Style_Lower.add("𝒐");
+        Style_Lower.add("𝒑");
+        Style_Lower.add("𝒒");
+        Style_Lower.add("𝒓");
+        Style_Lower.add("𝒔");
+        Style_Lower.add("𝒕");
+        Style_Lower.add("𝒖");
+        Style_Lower.add("𝒗");
+        Style_Lower.add("𝒘");
+        Style_Lower.add("𝒙");
+        Style_Lower.add("𝒚");
+        Style_Lower.add("𝒛");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -439,69 +445,70 @@ public class Convert {
     }
 
     public static String convert2type6(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("𝙰");
-        Copperplate_Upper.add("𝙱");
-        Copperplate_Upper.add("𝙲");
-        Copperplate_Upper.add("𝙳");
-        Copperplate_Upper.add("𝙴");
-        Copperplate_Upper.add("𝙵");
-        Copperplate_Upper.add("𝙶");
-        Copperplate_Upper.add("𝙷");
-        Copperplate_Upper.add("𝙸");
-        Copperplate_Upper.add("𝙹");
-        Copperplate_Upper.add("𝙺");
-        Copperplate_Upper.add("𝙻");
-        Copperplate_Upper.add("𝙼");
-        Copperplate_Upper.add("𝙽");
-        Copperplate_Upper.add("𝙾");
-        Copperplate_Upper.add("𝙿");
-        Copperplate_Upper.add("𝚀");
-        Copperplate_Upper.add("𝚁");
-        Copperplate_Upper.add("𝚂");
-        Copperplate_Upper.add("𝚃");
-        Copperplate_Upper.add("𝚄");
-        Copperplate_Upper.add("𝚅");
-        Copperplate_Upper.add("𝚆");
-        Copperplate_Upper.add("𝚇");
-        Copperplate_Upper.add("𝚈");
-        Copperplate_Upper.add("𝚉");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝚊");
-        Copperplate_Lower.add("𝚋");
-        Copperplate_Lower.add("𝚌");
-        Copperplate_Lower.add("𝚍");
-        Copperplate_Lower.add("𝚎");
-        Copperplate_Lower.add("𝚏");
-        Copperplate_Lower.add("𝚐");
-        Copperplate_Lower.add("𝚑");
-        Copperplate_Lower.add("𝚒");
-        Copperplate_Lower.add("𝚓");
-        Copperplate_Lower.add("𝚔");
-        Copperplate_Lower.add("𝚕");
-        Copperplate_Lower.add("𝚖");
-        Copperplate_Lower.add("𝚗");
-        Copperplate_Lower.add("𝚘");
-        Copperplate_Lower.add("𝚙");
-        Copperplate_Lower.add("𝚚");
-        Copperplate_Lower.add("𝚛");
-        Copperplate_Lower.add("𝚜");
-        Copperplate_Lower.add("𝚝");
-        Copperplate_Lower.add("𝚞");
-        Copperplate_Lower.add("𝚟");
-        Copperplate_Lower.add("𝚠");
-        Copperplate_Lower.add("𝚡");
-        Copperplate_Lower.add("𝚢");
-        Copperplate_Lower.add("𝚣");
+        Style_Upper.add("𝙰");
+        Style_Upper.add("𝙱");
+        Style_Upper.add("𝙲");
+        Style_Upper.add("𝙳");
+        Style_Upper.add("𝙴");
+        Style_Upper.add("𝙵");
+        Style_Upper.add("𝙶");
+        Style_Upper.add("𝙷");
+        Style_Upper.add("𝙸");
+        Style_Upper.add("𝙹");
+        Style_Upper.add("𝙺");
+        Style_Upper.add("𝙻");
+        Style_Upper.add("𝙼");
+        Style_Upper.add("𝙽");
+        Style_Upper.add("𝙾");
+        Style_Upper.add("𝙿");
+        Style_Upper.add("𝚀");
+        Style_Upper.add("𝚁");
+        Style_Upper.add("𝚂");
+        Style_Upper.add("𝚃");
+        Style_Upper.add("𝚄");
+        Style_Upper.add("𝚅");
+        Style_Upper.add("𝚆");
+        Style_Upper.add("𝚇");
+        Style_Upper.add("𝚈");
+        Style_Upper.add("𝚉");
+
+        Style_Lower.add("𝚊");
+        Style_Lower.add("𝚋");
+        Style_Lower.add("𝚌");
+        Style_Lower.add("𝚍");
+        Style_Lower.add("𝚎");
+        Style_Lower.add("𝚏");
+        Style_Lower.add("𝚐");
+        Style_Lower.add("𝚑");
+        Style_Lower.add("𝚒");
+        Style_Lower.add("𝚓");
+        Style_Lower.add("𝚔");
+        Style_Lower.add("𝚕");
+        Style_Lower.add("𝚖");
+        Style_Lower.add("𝚗");
+        Style_Lower.add("𝚘");
+        Style_Lower.add("𝚙");
+        Style_Lower.add("𝚚");
+        Style_Lower.add("𝚛");
+        Style_Lower.add("𝚜");
+        Style_Lower.add("𝚝");
+        Style_Lower.add("𝚞");
+        Style_Lower.add("𝚟");
+        Style_Lower.add("𝚠");
+        Style_Lower.add("𝚡");
+        Style_Lower.add("𝚢");
+        Style_Lower.add("𝚣");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -511,69 +518,70 @@ public class Convert {
     }
 
     public static String convert2type7(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
-        Copperplate_Upper.add("A̶");
-        Copperplate_Upper.add("B̶");
-        Copperplate_Upper.add("C̶");
-        Copperplate_Upper.add("D̶");
-        Copperplate_Upper.add("E̶");
-        Copperplate_Upper.add("F̶");
-        Copperplate_Upper.add("G̶");
-        Copperplate_Upper.add("H̶");
-        Copperplate_Upper.add("I̶");
-        Copperplate_Upper.add("J̶");
-        Copperplate_Upper.add("K̶");
-        Copperplate_Upper.add("L̶");
-        Copperplate_Upper.add("M̶");
-        Copperplate_Upper.add("N̶");
-        Copperplate_Upper.add("O̶");
-        Copperplate_Upper.add("P̶");
-        Copperplate_Upper.add("Q̶");
-        Copperplate_Upper.add("R̶");
-        Copperplate_Upper.add("S̶");
-        Copperplate_Upper.add("T̶");
-        Copperplate_Upper.add("U̶");
-        Copperplate_Upper.add("V̶");
-        Copperplate_Upper.add("W̶");
-        Copperplate_Upper.add("X̶");
-        Copperplate_Upper.add("Y̶");
-        Copperplate_Upper.add("Z̶");
+        ArrayList<String> Style_Upper = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("a̶");
-        Copperplate_Lower.add("b̶");
-        Copperplate_Lower.add("c̶");
-        Copperplate_Lower.add("d̶");
-        Copperplate_Lower.add("e̶");
-        Copperplate_Lower.add("f̶");
-        Copperplate_Lower.add("g̶");
-        Copperplate_Lower.add("h̶");
-        Copperplate_Lower.add("i̶");
-        Copperplate_Lower.add("j̶");
-        Copperplate_Lower.add("k̶");
-        Copperplate_Lower.add("l̶");
-        Copperplate_Lower.add("m̶");
-        Copperplate_Lower.add("n̶");
-        Copperplate_Lower.add("o̶");
-        Copperplate_Lower.add("p̶̶");
-        Copperplate_Lower.add("q̶");
-        Copperplate_Lower.add("r̶");
-        Copperplate_Lower.add("s̶");
-        Copperplate_Lower.add("t̶");
-        Copperplate_Lower.add("u̶");
-        Copperplate_Lower.add("v̶");
-        Copperplate_Lower.add("w̶");
-        Copperplate_Lower.add("x̶");
-        Copperplate_Lower.add("y̶");
-        Copperplate_Lower.add("z̶");
+        Style_Upper.add("A̶");
+        Style_Upper.add("B̶");
+        Style_Upper.add("C̶");
+        Style_Upper.add("D̶");
+        Style_Upper.add("E̶");
+        Style_Upper.add("F̶");
+        Style_Upper.add("G̶");
+        Style_Upper.add("H̶");
+        Style_Upper.add("I̶");
+        Style_Upper.add("J̶");
+        Style_Upper.add("K̶");
+        Style_Upper.add("L̶");
+        Style_Upper.add("M̶");
+        Style_Upper.add("N̶");
+        Style_Upper.add("O̶");
+        Style_Upper.add("P̶");
+        Style_Upper.add("Q̶");
+        Style_Upper.add("R̶");
+        Style_Upper.add("S̶");
+        Style_Upper.add("T̶");
+        Style_Upper.add("U̶");
+        Style_Upper.add("V̶");
+        Style_Upper.add("W̶");
+        Style_Upper.add("X̶");
+        Style_Upper.add("Y̶");
+        Style_Upper.add("Z̶");
+
+        Style_Lower.add("a̶");
+        Style_Lower.add("b̶");
+        Style_Lower.add("c̶");
+        Style_Lower.add("d̶");
+        Style_Lower.add("e̶");
+        Style_Lower.add("f̶");
+        Style_Lower.add("g̶");
+        Style_Lower.add("h̶");
+        Style_Lower.add("i̶");
+        Style_Lower.add("j̶");
+        Style_Lower.add("k̶");
+        Style_Lower.add("l̶");
+        Style_Lower.add("m̶");
+        Style_Lower.add("n̶");
+        Style_Lower.add("o̶");
+        Style_Lower.add("p̶̶");
+        Style_Lower.add("q̶");
+        Style_Lower.add("r̶");
+        Style_Lower.add("s̶");
+        Style_Lower.add("t̶");
+        Style_Lower.add("u̶");
+        Style_Lower.add("v̶");
+        Style_Lower.add("w̶");
+        Style_Lower.add("x̶");
+        Style_Lower.add("y̶");
+        Style_Lower.add("z̶");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
             }
             else if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -583,39 +591,39 @@ public class Convert {
     }
 
     public static String convert2type8(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝙖");
-        Copperplate_Lower.add("𝙗");
-        Copperplate_Lower.add("𝙘");
-        Copperplate_Lower.add("𝙙");
-        Copperplate_Lower.add("𝙚");
-        Copperplate_Lower.add("𝙛");
-        Copperplate_Lower.add("𝙜");
-        Copperplate_Lower.add("𝙝");
-        Copperplate_Lower.add("𝙞");
-        Copperplate_Lower.add("𝙟");
-        Copperplate_Lower.add("𝙠");
-        Copperplate_Lower.add("𝙡");
-        Copperplate_Lower.add("𝙢");
-        Copperplate_Lower.add("𝙣");
-        Copperplate_Lower.add("𝙤");
-        Copperplate_Lower.add("𝙥");
-        Copperplate_Lower.add("𝙦");
-        Copperplate_Lower.add("𝙧");
-        Copperplate_Lower.add("𝙨");
-        Copperplate_Lower.add("𝙩");
-        Copperplate_Lower.add("𝙪");
-        Copperplate_Lower.add("𝙫");
-        Copperplate_Lower.add("𝙬");
-        Copperplate_Lower.add("𝙭");
-        Copperplate_Lower.add("𝙮");
-        Copperplate_Lower.add("𝙯");
+        Style_Lower.add("𝙖");
+        Style_Lower.add("𝙗");
+        Style_Lower.add("𝙘");
+        Style_Lower.add("𝙙");
+        Style_Lower.add("𝙚");
+        Style_Lower.add("𝙛");
+        Style_Lower.add("𝙜");
+        Style_Lower.add("𝙝");
+        Style_Lower.add("𝙞");
+        Style_Lower.add("𝙟");
+        Style_Lower.add("𝙠");
+        Style_Lower.add("𝙡");
+        Style_Lower.add("𝙢");
+        Style_Lower.add("𝙣");
+        Style_Lower.add("𝙤");
+        Style_Lower.add("𝙥");
+        Style_Lower.add("𝙦");
+        Style_Lower.add("𝙧");
+        Style_Lower.add("𝙨");
+        Style_Lower.add("𝙩");
+        Style_Lower.add("𝙪");
+        Style_Lower.add("𝙫");
+        Style_Lower.add("𝙬");
+        Style_Lower.add("𝙭");
+        Style_Lower.add("𝙮");
+        Style_Lower.add("𝙯");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -625,39 +633,39 @@ public class Convert {
     }
 
     public static String convert2type9(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝐚");
-        Copperplate_Lower.add("𝐛");
-        Copperplate_Lower.add("𝐜");
-        Copperplate_Lower.add("𝐝");
-        Copperplate_Lower.add("𝐞");
-        Copperplate_Lower.add("𝐟");
-        Copperplate_Lower.add("𝐠");
-        Copperplate_Lower.add("𝐡");
-        Copperplate_Lower.add("𝐢");
-        Copperplate_Lower.add("𝐣");
-        Copperplate_Lower.add("𝐤");
-        Copperplate_Lower.add("𝐥");
-        Copperplate_Lower.add("𝐦");
-        Copperplate_Lower.add("𝐧");
-        Copperplate_Lower.add("𝐨");
-        Copperplate_Lower.add("𝐩");
-        Copperplate_Lower.add("𝐪");
-        Copperplate_Lower.add("𝐫");
-        Copperplate_Lower.add("𝐬");
-        Copperplate_Lower.add("𝐭");
-        Copperplate_Lower.add("𝐮");
-        Copperplate_Lower.add("𝐯");
-        Copperplate_Lower.add("𝐰");
-        Copperplate_Lower.add("𝐱");
-        Copperplate_Lower.add("𝐲");
-        Copperplate_Lower.add("𝐳");
+        Style_Lower.add("𝐚");
+        Style_Lower.add("𝐛");
+        Style_Lower.add("𝐜");
+        Style_Lower.add("𝐝");
+        Style_Lower.add("𝐞");
+        Style_Lower.add("𝐟");
+        Style_Lower.add("𝐠");
+        Style_Lower.add("𝐡");
+        Style_Lower.add("𝐢");
+        Style_Lower.add("𝐣");
+        Style_Lower.add("𝐤");
+        Style_Lower.add("𝐥");
+        Style_Lower.add("𝐦");
+        Style_Lower.add("𝐧");
+        Style_Lower.add("𝐨");
+        Style_Lower.add("𝐩");
+        Style_Lower.add("𝐪");
+        Style_Lower.add("𝐫");
+        Style_Lower.add("𝐬");
+        Style_Lower.add("𝐭");
+        Style_Lower.add("𝐮");
+        Style_Lower.add("𝐯");
+        Style_Lower.add("𝐰");
+        Style_Lower.add("𝐱");
+        Style_Lower.add("𝐲");
+        Style_Lower.add("𝐳");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -667,39 +675,39 @@ public class Convert {
     }
 
     public static String convert2type10(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝓪");
-        Copperplate_Lower.add("𝓫");
-        Copperplate_Lower.add("𝓬");
-        Copperplate_Lower.add("𝓭");
-        Copperplate_Lower.add("𝓮");
-        Copperplate_Lower.add("𝓯");
-        Copperplate_Lower.add("𝓰");
-        Copperplate_Lower.add("𝓱");
-        Copperplate_Lower.add("𝓲");
-        Copperplate_Lower.add("𝓳");
-        Copperplate_Lower.add("𝓴");
-        Copperplate_Lower.add("𝓵");
-        Copperplate_Lower.add("𝓶");
-        Copperplate_Lower.add("𝓷");
-        Copperplate_Lower.add("𝓸");
-        Copperplate_Lower.add("𝓹");
-        Copperplate_Lower.add("𝓺");
-        Copperplate_Lower.add("𝓻");
-        Copperplate_Lower.add("𝓼");
-        Copperplate_Lower.add("𝓽");
-        Copperplate_Lower.add("𝓾");
-        Copperplate_Lower.add("𝓿");
-        Copperplate_Lower.add("𝔀");
-        Copperplate_Lower.add("𝔁");
-        Copperplate_Lower.add("𝔂");
-        Copperplate_Lower.add("𝔃");
+        Style_Lower.add("𝓪");
+        Style_Lower.add("𝓫");
+        Style_Lower.add("𝓬");
+        Style_Lower.add("𝓭");
+        Style_Lower.add("𝓮");
+        Style_Lower.add("𝓯");
+        Style_Lower.add("𝓰");
+        Style_Lower.add("𝓱");
+        Style_Lower.add("𝓲");
+        Style_Lower.add("𝓳");
+        Style_Lower.add("𝓴");
+        Style_Lower.add("𝓵");
+        Style_Lower.add("𝓶");
+        Style_Lower.add("𝓷");
+        Style_Lower.add("𝓸");
+        Style_Lower.add("𝓹");
+        Style_Lower.add("𝓺");
+        Style_Lower.add("𝓻");
+        Style_Lower.add("𝓼");
+        Style_Lower.add("𝓽");
+        Style_Lower.add("𝓾");
+        Style_Lower.add("𝓿");
+        Style_Lower.add("𝔀");
+        Style_Lower.add("𝔁");
+        Style_Lower.add("𝔂");
+        Style_Lower.add("𝔃");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -709,39 +717,39 @@ public class Convert {
     }
 
     public static String convert2type11(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝖆");
-        Copperplate_Lower.add("𝖇");
-        Copperplate_Lower.add("𝖈");
-        Copperplate_Lower.add("𝖉");
-        Copperplate_Lower.add("𝖊");
-        Copperplate_Lower.add("𝖋");
-        Copperplate_Lower.add("𝖌");
-        Copperplate_Lower.add("𝖍");
-        Copperplate_Lower.add("𝖎");
-        Copperplate_Lower.add("𝖏");
-        Copperplate_Lower.add("𝖐");
-        Copperplate_Lower.add("𝖑");
-        Copperplate_Lower.add("𝖒");
-        Copperplate_Lower.add("𝖓");
-        Copperplate_Lower.add("𝖔");
-        Copperplate_Lower.add("𝖕");
-        Copperplate_Lower.add("𝖖");
-        Copperplate_Lower.add("𝖗");
-        Copperplate_Lower.add("𝖘");
-        Copperplate_Lower.add("𝖙");
-        Copperplate_Lower.add("𝖚");
-        Copperplate_Lower.add("𝖛");
-        Copperplate_Lower.add("𝖜");
-        Copperplate_Lower.add("𝖝");
-        Copperplate_Lower.add("𝖞");
-        Copperplate_Lower.add("𝖟");
+        Style_Lower.add("𝖆");
+        Style_Lower.add("𝖇");
+        Style_Lower.add("𝖈");
+        Style_Lower.add("𝖉");
+        Style_Lower.add("𝖊");
+        Style_Lower.add("𝖋");
+        Style_Lower.add("𝖌");
+        Style_Lower.add("𝖍");
+        Style_Lower.add("𝖎");
+        Style_Lower.add("𝖏");
+        Style_Lower.add("𝖐");
+        Style_Lower.add("𝖑");
+        Style_Lower.add("𝖒");
+        Style_Lower.add("𝖓");
+        Style_Lower.add("𝖔");
+        Style_Lower.add("𝖕");
+        Style_Lower.add("𝖖");
+        Style_Lower.add("𝖗");
+        Style_Lower.add("𝖘");
+        Style_Lower.add("𝖙");
+        Style_Lower.add("𝖚");
+        Style_Lower.add("𝖛");
+        Style_Lower.add("𝖜");
+        Style_Lower.add("𝖝");
+        Style_Lower.add("𝖞");
+        Style_Lower.add("𝖟");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -751,39 +759,39 @@ public class Convert {
     }
 
     public static String convert2type12(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝗮");
-        Copperplate_Lower.add("𝗯");
-        Copperplate_Lower.add("𝗰");
-        Copperplate_Lower.add("𝗱");
-        Copperplate_Lower.add("𝗲");
-        Copperplate_Lower.add("𝗳");
-        Copperplate_Lower.add("𝗴");
-        Copperplate_Lower.add("𝗵");
-        Copperplate_Lower.add("𝗶");
-        Copperplate_Lower.add("𝗷");
-        Copperplate_Lower.add("𝗸");
-        Copperplate_Lower.add("𝗹");
-        Copperplate_Lower.add("𝗺");
-        Copperplate_Lower.add("𝗻");
-        Copperplate_Lower.add("𝗼");
-        Copperplate_Lower.add("𝗽");
-        Copperplate_Lower.add("𝗾");
-        Copperplate_Lower.add("𝗿");
-        Copperplate_Lower.add("𝘀");
-        Copperplate_Lower.add("𝘁");
-        Copperplate_Lower.add("𝘂");
-        Copperplate_Lower.add("𝘃");
-        Copperplate_Lower.add("𝘄");
-        Copperplate_Lower.add("𝘅");
-        Copperplate_Lower.add("𝘆");
-        Copperplate_Lower.add("𝘇");
+        Style_Lower.add("𝗮");
+        Style_Lower.add("𝗯");
+        Style_Lower.add("𝗰");
+        Style_Lower.add("𝗱");
+        Style_Lower.add("𝗲");
+        Style_Lower.add("𝗳");
+        Style_Lower.add("𝗴");
+        Style_Lower.add("𝗵");
+        Style_Lower.add("𝗶");
+        Style_Lower.add("𝗷");
+        Style_Lower.add("𝗸");
+        Style_Lower.add("𝗹");
+        Style_Lower.add("𝗺");
+        Style_Lower.add("𝗻");
+        Style_Lower.add("𝗼");
+        Style_Lower.add("𝗽");
+        Style_Lower.add("𝗾");
+        Style_Lower.add("𝗿");
+        Style_Lower.add("𝘀");
+        Style_Lower.add("𝘁");
+        Style_Lower.add("𝘂");
+        Style_Lower.add("𝘃");
+        Style_Lower.add("𝘄");
+        Style_Lower.add("𝘅");
+        Style_Lower.add("𝘆");
+        Style_Lower.add("𝘇");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -793,39 +801,39 @@ public class Convert {
     }
 
     public static String convert2type13(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝘢");
-        Copperplate_Lower.add("𝘣");
-        Copperplate_Lower.add("𝘤");
-        Copperplate_Lower.add("𝘥");
-        Copperplate_Lower.add("𝘦");
-        Copperplate_Lower.add("𝘧");
-        Copperplate_Lower.add("𝘨");
-        Copperplate_Lower.add("𝘩");
-        Copperplate_Lower.add("𝘪");
-        Copperplate_Lower.add("𝘫");
-        Copperplate_Lower.add("𝘬");
-        Copperplate_Lower.add("𝘭");
-        Copperplate_Lower.add("𝘮");
-        Copperplate_Lower.add("𝘯");
-        Copperplate_Lower.add("𝘰");
-        Copperplate_Lower.add("𝘱");
-        Copperplate_Lower.add("𝘲");
-        Copperplate_Lower.add("𝘳");
-        Copperplate_Lower.add("𝘴");
-        Copperplate_Lower.add("𝘵");
-        Copperplate_Lower.add("𝘶");
-        Copperplate_Lower.add("𝘷");
-        Copperplate_Lower.add("𝘸");
-        Copperplate_Lower.add("𝘹");
-        Copperplate_Lower.add("𝘺");
-        Copperplate_Lower.add("𝘻");
+        Style_Lower.add("𝘢");
+        Style_Lower.add("𝘣");
+        Style_Lower.add("𝘤");
+        Style_Lower.add("𝘥");
+        Style_Lower.add("𝘦");
+        Style_Lower.add("𝘧");
+        Style_Lower.add("𝘨");
+        Style_Lower.add("𝘩");
+        Style_Lower.add("𝘪");
+        Style_Lower.add("𝘫");
+        Style_Lower.add("𝘬");
+        Style_Lower.add("𝘭");
+        Style_Lower.add("𝘮");
+        Style_Lower.add("𝘯");
+        Style_Lower.add("𝘰");
+        Style_Lower.add("𝘱");
+        Style_Lower.add("𝘲");
+        Style_Lower.add("𝘳");
+        Style_Lower.add("𝘴");
+        Style_Lower.add("𝘵");
+        Style_Lower.add("𝘶");
+        Style_Lower.add("𝘷");
+        Style_Lower.add("𝘸");
+        Style_Lower.add("𝘹");
+        Style_Lower.add("𝘺");
+        Style_Lower.add("𝘻");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -835,39 +843,39 @@ public class Convert {
     }
 
     public static String convert2type14(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("𝚊");
-        Copperplate_Lower.add("𝚋");
-        Copperplate_Lower.add("𝚌");
-        Copperplate_Lower.add("𝚍");
-        Copperplate_Lower.add("𝚎");
-        Copperplate_Lower.add("𝚏");
-        Copperplate_Lower.add("𝚐");
-        Copperplate_Lower.add("𝚑");
-        Copperplate_Lower.add("𝚒");
-        Copperplate_Lower.add("𝚓");
-        Copperplate_Lower.add("𝚔");
-        Copperplate_Lower.add("𝚕");
-        Copperplate_Lower.add("𝚖");
-        Copperplate_Lower.add("𝚗");
-        Copperplate_Lower.add("𝚘");
-        Copperplate_Lower.add("𝚙");
-        Copperplate_Lower.add("𝚚");
-        Copperplate_Lower.add("𝚛");
-        Copperplate_Lower.add("𝚜");
-        Copperplate_Lower.add("𝚝");
-        Copperplate_Lower.add("𝚞");
-        Copperplate_Lower.add("𝚟");
-        Copperplate_Lower.add("𝚠");
-        Copperplate_Lower.add("𝚡");
-        Copperplate_Lower.add("𝚢");
-        Copperplate_Lower.add("𝚣");
+        Style_Lower.add("𝚊");
+        Style_Lower.add("𝚋");
+        Style_Lower.add("𝚌");
+        Style_Lower.add("𝚍");
+        Style_Lower.add("𝚎");
+        Style_Lower.add("𝚏");
+        Style_Lower.add("𝚐");
+        Style_Lower.add("𝚑");
+        Style_Lower.add("𝚒");
+        Style_Lower.add("𝚓");
+        Style_Lower.add("𝚔");
+        Style_Lower.add("𝚕");
+        Style_Lower.add("𝚖");
+        Style_Lower.add("𝚗");
+        Style_Lower.add("𝚘");
+        Style_Lower.add("𝚙");
+        Style_Lower.add("𝚚");
+        Style_Lower.add("𝚛");
+        Style_Lower.add("𝚜");
+        Style_Lower.add("𝚝");
+        Style_Lower.add("𝚞");
+        Style_Lower.add("𝚟");
+        Style_Lower.add("𝚠");
+        Style_Lower.add("𝚡");
+        Style_Lower.add("𝚢");
+        Style_Lower.add("𝚣");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -877,39 +885,39 @@ public class Convert {
     }
 
     public static String convert2type15(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("ⓐ");
-        Copperplate_Lower.add("ⓑ");
-        Copperplate_Lower.add("ⓒ");
-        Copperplate_Lower.add("ⓓ");
-        Copperplate_Lower.add("ⓔ");
-        Copperplate_Lower.add("ⓕ");
-        Copperplate_Lower.add("ⓖ");
-        Copperplate_Lower.add("ⓗ");
-        Copperplate_Lower.add("ⓘ");
-        Copperplate_Lower.add("ⓙ");
-        Copperplate_Lower.add("ⓚ");
-        Copperplate_Lower.add("ⓛ");
-        Copperplate_Lower.add("ⓜ");
-        Copperplate_Lower.add("ⓝ");
-        Copperplate_Lower.add("ⓞ");
-        Copperplate_Lower.add("ⓟ");
-        Copperplate_Lower.add("ⓠ");
-        Copperplate_Lower.add("ⓡ");
-        Copperplate_Lower.add("ⓢ");
-        Copperplate_Lower.add("ⓣ");
-        Copperplate_Lower.add("ⓤ");
-        Copperplate_Lower.add("ⓥ");
-        Copperplate_Lower.add("ⓦ");
-        Copperplate_Lower.add("ⓧ");
-        Copperplate_Lower.add("ⓨ");
-        Copperplate_Lower.add("ⓩ");
+        Style_Lower.add("ⓐ");
+        Style_Lower.add("ⓑ");
+        Style_Lower.add("ⓒ");
+        Style_Lower.add("ⓓ");
+        Style_Lower.add("ⓔ");
+        Style_Lower.add("ⓕ");
+        Style_Lower.add("ⓖ");
+        Style_Lower.add("ⓗ");
+        Style_Lower.add("ⓘ");
+        Style_Lower.add("ⓙ");
+        Style_Lower.add("ⓚ");
+        Style_Lower.add("ⓛ");
+        Style_Lower.add("ⓜ");
+        Style_Lower.add("ⓝ");
+        Style_Lower.add("ⓞ");
+        Style_Lower.add("ⓟ");
+        Style_Lower.add("ⓠ");
+        Style_Lower.add("ⓡ");
+        Style_Lower.add("ⓢ");
+        Style_Lower.add("ⓣ");
+        Style_Lower.add("ⓤ");
+        Style_Lower.add("ⓥ");
+        Style_Lower.add("ⓦ");
+        Style_Lower.add("ⓧ");
+        Style_Lower.add("ⓨ");
+        Style_Lower.add("ⓩ");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -919,39 +927,39 @@ public class Convert {
     }
 
     public static String convert2type16(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("a̸");
-        Copperplate_Lower.add("b̸");
-        Copperplate_Lower.add("c̸");
-        Copperplate_Lower.add("d̸");
-        Copperplate_Lower.add("e̸");
-        Copperplate_Lower.add("f̸");
-        Copperplate_Lower.add("g̸");
-        Copperplate_Lower.add("h̸");
-        Copperplate_Lower.add("i̸");
-        Copperplate_Lower.add("j̸");
-        Copperplate_Lower.add("k̸");
-        Copperplate_Lower.add("l̸");
-        Copperplate_Lower.add("m̸");
-        Copperplate_Lower.add("n̸");
-        Copperplate_Lower.add("o̸");
-        Copperplate_Lower.add("p̸");
-        Copperplate_Lower.add("q̸");
-        Copperplate_Lower.add("r̸");
-        Copperplate_Lower.add("s̸");
-        Copperplate_Lower.add("t̸");
-        Copperplate_Lower.add("u̸");
-        Copperplate_Lower.add("v̸");
-        Copperplate_Lower.add("w̸");
-        Copperplate_Lower.add("x̸");
-        Copperplate_Lower.add("y̸");
-        Copperplate_Lower.add("z̸");
+        Style_Lower.add("a̸");
+        Style_Lower.add("b̸");
+        Style_Lower.add("c̸");
+        Style_Lower.add("d̸");
+        Style_Lower.add("e̸");
+        Style_Lower.add("f̸");
+        Style_Lower.add("g̸");
+        Style_Lower.add("h̸");
+        Style_Lower.add("i̸");
+        Style_Lower.add("j̸");
+        Style_Lower.add("k̸");
+        Style_Lower.add("l̸");
+        Style_Lower.add("m̸");
+        Style_Lower.add("n̸");
+        Style_Lower.add("o̸");
+        Style_Lower.add("p̸");
+        Style_Lower.add("q̸");
+        Style_Lower.add("r̸");
+        Style_Lower.add("s̸");
+        Style_Lower.add("t̸");
+        Style_Lower.add("u̸");
+        Style_Lower.add("v̸");
+        Style_Lower.add("w̸");
+        Style_Lower.add("x̸");
+        Style_Lower.add("y̸");
+        Style_Lower.add("z̸");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -961,39 +969,39 @@ public class Convert {
     }
 
     public static String convert2type17(String string_in) {
-        ArrayList<String> Copperplate_Lower = new ArrayList<>();
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
-        Copperplate_Lower.add("a꯭");
-        Copperplate_Lower.add("b꯭");
-        Copperplate_Lower.add("c꯭");
-        Copperplate_Lower.add("d꯭");
-        Copperplate_Lower.add("e꯭");
-        Copperplate_Lower.add("f꯭");
-        Copperplate_Lower.add("g꯭");
-        Copperplate_Lower.add("h꯭");
-        Copperplate_Lower.add("i꯭");
-        Copperplate_Lower.add("j꯭");
-        Copperplate_Lower.add("k꯭");
-        Copperplate_Lower.add("l꯭");
-        Copperplate_Lower.add("m꯭");
-        Copperplate_Lower.add("n꯭");
-        Copperplate_Lower.add("o꯭");
-        Copperplate_Lower.add("p꯭");
-        Copperplate_Lower.add("q꯭");
-        Copperplate_Lower.add("r꯭");
-        Copperplate_Lower.add("s꯭");
-        Copperplate_Lower.add("t꯭");
-        Copperplate_Lower.add("u꯭");
-        Copperplate_Lower.add("v꯭");
-        Copperplate_Lower.add("w꯭");
-        Copperplate_Lower.add("x꯭");
-        Copperplate_Lower.add("y꯭");
-        Copperplate_Lower.add("z꯭");
+        Style_Lower.add("a꯭");
+        Style_Lower.add("b꯭");
+        Style_Lower.add("c꯭");
+        Style_Lower.add("d꯭");
+        Style_Lower.add("e꯭");
+        Style_Lower.add("f꯭");
+        Style_Lower.add("g꯭");
+        Style_Lower.add("h꯭");
+        Style_Lower.add("i꯭");
+        Style_Lower.add("j꯭");
+        Style_Lower.add("k꯭");
+        Style_Lower.add("l꯭");
+        Style_Lower.add("m꯭");
+        Style_Lower.add("n꯭");
+        Style_Lower.add("o꯭");
+        Style_Lower.add("p꯭");
+        Style_Lower.add("q꯭");
+        Style_Lower.add("r꯭");
+        Style_Lower.add("s꯭");
+        Style_Lower.add("t꯭");
+        Style_Lower.add("u꯭");
+        Style_Lower.add("v꯭");
+        Style_Lower.add("w꯭");
+        Style_Lower.add("x꯭");
+        Style_Lower.add("y꯭");
+        Style_Lower.add("z꯭");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
-                sb.append(Copperplate_Lower.get(c - 'a'));
+                sb.append(Style_Lower.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -1003,39 +1011,42 @@ public class Convert {
     }
 
     public static String convert2type18(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
+        ArrayList<String> Style_Upper = new ArrayList<>();
 
-        Copperplate_Upper.add("🄐");
-        Copperplate_Upper.add("🄑");
-        Copperplate_Upper.add("🄒");
-        Copperplate_Upper.add("🄓");
-        Copperplate_Upper.add("🄔");
-        Copperplate_Upper.add("🄕");
-        Copperplate_Upper.add("🄖");
-        Copperplate_Upper.add("🄗");
-        Copperplate_Upper.add("🄘");
-        Copperplate_Upper.add("🄙");
-        Copperplate_Upper.add("🄚");
-        Copperplate_Upper.add("🄛");
-        Copperplate_Upper.add("🄜");
-        Copperplate_Upper.add("🄝");
-        Copperplate_Upper.add("🄞");
-        Copperplate_Upper.add("🄟");
-        Copperplate_Upper.add("🄠");
-        Copperplate_Upper.add("🄡");
-        Copperplate_Upper.add("🄢");
-        Copperplate_Upper.add("🄣");
-        Copperplate_Upper.add("🄤");
-        Copperplate_Upper.add("🄥");
-        Copperplate_Upper.add("🄦");
-        Copperplate_Upper.add("🄧");
-        Copperplate_Upper.add("🄨");
-        Copperplate_Upper.add("🄩");
+        Style_Upper.add("🄐");
+        Style_Upper.add("🄑");
+        Style_Upper.add("🄒");
+        Style_Upper.add("🄓");
+        Style_Upper.add("🄔");
+        Style_Upper.add("🄕");
+        Style_Upper.add("🄖");
+        Style_Upper.add("🄗");
+        Style_Upper.add("🄘");
+        Style_Upper.add("🄙");
+        Style_Upper.add("🄚");
+        Style_Upper.add("🄛");
+        Style_Upper.add("🄜");
+        Style_Upper.add("🄝");
+        Style_Upper.add("🄞");
+        Style_Upper.add("🄟");
+        Style_Upper.add("🄠");
+        Style_Upper.add("🄡");
+        Style_Upper.add("🄢");
+        Style_Upper.add("🄣");
+        Style_Upper.add("🄤");
+        Style_Upper.add("🄥");
+        Style_Upper.add("🄦");
+        Style_Upper.add("🄧");
+        Style_Upper.add("🄨");
+        Style_Upper.add("🄩");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
+            }
+            else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -1045,39 +1056,42 @@ public class Convert {
     }
 
     public static String convert2type19(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
+        ArrayList<String> Style_Upper = new ArrayList<>();
 
-        Copperplate_Upper.add("🄰");
-        Copperplate_Upper.add("🄱");
-        Copperplate_Upper.add("🄲");
-        Copperplate_Upper.add("🄳");
-        Copperplate_Upper.add("🄴");
-        Copperplate_Upper.add("🄵");
-        Copperplate_Upper.add("🄶");
-        Copperplate_Upper.add("🄷");
-        Copperplate_Upper.add("🄸");
-        Copperplate_Upper.add("🄹");
-        Copperplate_Upper.add("🄺");
-        Copperplate_Upper.add("🄻");
-        Copperplate_Upper.add("🄼");
-        Copperplate_Upper.add("🄽");
-        Copperplate_Upper.add("🄾");
-        Copperplate_Upper.add("🄿");
-        Copperplate_Upper.add("🅀");
-        Copperplate_Upper.add("🅁");
-        Copperplate_Upper.add("🅂");
-        Copperplate_Upper.add("🅃");
-        Copperplate_Upper.add("🅄");
-        Copperplate_Upper.add("🅅");
-        Copperplate_Upper.add("🅆");
-        Copperplate_Upper.add("🅇");
-        Copperplate_Upper.add("🅈");
-        Copperplate_Upper.add("🅉");
+        Style_Upper.add("🄰");
+        Style_Upper.add("🄱");
+        Style_Upper.add("🄲");
+        Style_Upper.add("🄳");
+        Style_Upper.add("🄴");
+        Style_Upper.add("🄵");
+        Style_Upper.add("🄶");
+        Style_Upper.add("🄷");
+        Style_Upper.add("🄸");
+        Style_Upper.add("🄹");
+        Style_Upper.add("🄺");
+        Style_Upper.add("🄻");
+        Style_Upper.add("🄼");
+        Style_Upper.add("🄽");
+        Style_Upper.add("🄾");
+        Style_Upper.add("🄿");
+        Style_Upper.add("🅀");
+        Style_Upper.add("🅁");
+        Style_Upper.add("🅂");
+        Style_Upper.add("🅃");
+        Style_Upper.add("🅄");
+        Style_Upper.add("🅅");
+        Style_Upper.add("🅆");
+        Style_Upper.add("🅇");
+        Style_Upper.add("🅈");
+        Style_Upper.add("🅉");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
+            }
+            else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -1087,40 +1101,132 @@ public class Convert {
     }
 
     public static String convert2type20(String string_in) {
-        ArrayList<String> Copperplate_Upper = new ArrayList<>();
+        ArrayList<String> Style_Upper = new ArrayList<>();
 
-        Copperplate_Upper.add("🅐");
-        Copperplate_Upper.add("🅑");
-        Copperplate_Upper.add("🅒");
-        Copperplate_Upper.add("🅓");
-        Copperplate_Upper.add("🅔");
-        Copperplate_Upper.add("🅕");
-        Copperplate_Upper.add("🅖");
-        Copperplate_Upper.add("🅗");
-        Copperplate_Upper.add("🅘");
-        Copperplate_Upper.add("🅙");
-        Copperplate_Upper.add("🅚");
-        Copperplate_Upper.add("🅛");
-        Copperplate_Upper.add("🅜");
-        Copperplate_Upper.add("🅝");
-        Copperplate_Upper.add("🅞");
-        Copperplate_Upper.add("🅟");
-        Copperplate_Upper.add("🅠");
-        Copperplate_Upper.add("🅡");
-        Copperplate_Upper.add("🅢");
-        Copperplate_Upper.add("🅣");
-        Copperplate_Upper.add("🅤");
-        Copperplate_Upper.add("🅥");
-        Copperplate_Upper.add("🅦");
-        Copperplate_Upper.add("🅧");
-        Copperplate_Upper.add("🅨");
-        Copperplate_Upper.add("🅩");
-
+        Style_Upper.add("🅐");
+        Style_Upper.add("🅑");
+        Style_Upper.add("🅒");
+        Style_Upper.add("🅓");
+        Style_Upper.add("🅔");
+        Style_Upper.add("🅕");
+        Style_Upper.add("🅖");
+        Style_Upper.add("🅗");
+        Style_Upper.add("🅘");
+        Style_Upper.add("🅙");
+        Style_Upper.add("🅚");
+        Style_Upper.add("🅛");
+        Style_Upper.add("🅜");
+        Style_Upper.add("🅝");
+        Style_Upper.add("🅞");
+        Style_Upper.add("🅟");
+        Style_Upper.add("🅠");
+        Style_Upper.add("🅡");
+        Style_Upper.add("🅢");
+        Style_Upper.add("🅣");
+        Style_Upper.add("🅤");
+        Style_Upper.add("🅥");
+        Style_Upper.add("🅦");
+        Style_Upper.add("🅧");
+        Style_Upper.add("🅨");
+        Style_Upper.add("🅩");
 
         StringBuilder sb = new StringBuilder();
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
-                sb.append(Copperplate_Upper.get(c - 'A'));
+                sb.append(Style_Upper.get(c - 'A'));
+            }
+            else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
+            }
+            else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
+    public static String convert2type20(String string_in) {
+        ArrayList<String> Style_Upper = new ArrayList<>();
+
+        Style_Upper.add("🅰️");
+        Style_Upper.add("🅱️");
+        Style_Upper.add("🅲");
+        Style_Upper.add("🅳");
+        Style_Upper.add("🅴");
+        Style_Upper.add("🅵");
+        Style_Upper.add("🅶");
+        Style_Upper.add("🅷");
+        Style_Upper.add("🅸");
+        Style_Upper.add("🅹");
+        Style_Upper.add("🅺");
+        Style_Upper.add("🅻");
+        Style_Upper.add("🅼");
+        Style_Upper.add("🅽");
+        Style_Upper.add("🅾️");
+        Style_Upper.add("🅿️");
+        Style_Upper.add("🆀");
+        Style_Upper.add("🆁");
+        Style_Upper.add("🆂");
+        Style_Upper.add("🆃");
+        Style_Upper.add("🆄");
+        Style_Upper.add("🆅");
+        Style_Upper.add("🆆");
+        Style_Upper.add("🆇");
+        Style_Upper.add("🆈");
+        Style_Upper.add("🆉");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'A' && c <= 'Z') {
+                sb.append(Style_Upper.get(c - 'A'));
+            }
+            else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
+            }
+            else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
+    public static String convert2type20(String string_in) {
+        ArrayList<String> Style_Upper = new ArrayList<>();
+
+        Style_Upper.add("Λ");
+        Style_Upper.add("ß");
+        Style_Upper.add("₡");
+        Style_Upper.add("Ð");
+        Style_Upper.add("Ξ");
+        Style_Upper.add("Ŧ");
+        Style_Upper.add("G");
+        Style_Upper.add("Ħ");
+        Style_Upper.add("Ї");
+        Style_Upper.add("J");
+        Style_Upper.add("К");
+        Style_Upper.add("Ł");
+        Style_Upper.add("M");
+        Style_Upper.add("Ñ");
+        Style_Upper.add("Θ");
+        Style_Upper.add("P");
+        Style_Upper.add("Q");
+        Style_Upper.add("Я");
+        Style_Upper.add("§");
+        Style_Upper.add("T");
+        Style_Upper.add("Ц");
+        Style_Upper.add("V");
+        Style_Upper.add("₩");
+        Style_Upper.add("Ж");
+        Style_Upper.add("¥");
+        Style_Upper.add("Z");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'A' && c <= 'Z') {
+                sb.append(Style_Upper.get(c - 'A'));
+            }
+            else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
             }
             else {
                 sb.append(c);
@@ -1130,12 +1236,68 @@ public class Convert {
     }
 
 
+
 }
 
 
 
 /*
 
+Style_Upper.add("ⓐ");
+Style_Upper.add("ⓑ");
+Style_Upper.add("ⓒ");
+Style_Upper.add("ⓓ");
+Style_Upper.add("ⓔ");
+Style_Upper.add("ⓕ");
+Style_Upper.add("ⓖ");
+Style_Upper.add("ⓗ");
+Style_Upper.add("ⓘ");
+Style_Upper.add("ⓙ");
+Style_Upper.add("ⓚ");
+Style_Upper.add("ⓛ");
+Style_Upper.add("ⓜ");
+Style_Upper.add("ⓝ");
+Style_Upper.add("ⓞ");
+Style_Upper.add("ⓟ");
+Style_Upper.add("ⓠ");
+Style_Upper.add("ⓡ");
+Style_Upper.add("ⓢ");
+Style_Upper.add("ⓣ");
+Style_Upper.add("ⓤ");
+Style_Upper.add("ⓥ");
+Style_Upper.add("ⓦ");
+Style_Upper.add("ⓧ");
+Style_Upper.add("ⓨ");
+Style_Upper.add("ⓩ");
+
+
+
+Style_Upper.add("Ʌ");
+Style_Upper.add("Ɓ");
+Style_Upper.add("Ȼ");
+Style_Upper.add("Ɗ");
+Style_Upper.add("Ƹ");
+Style_Upper.add("Ƒ");
+Style_Upper.add("Ɠ");
+Style_Upper.add("Ƕ");
+Style_Upper.add("Ɨ");
+Style_Upper.add("J");
+Style_Upper.add("Ƙ");
+Style_Upper.add("Ł");
+Style_Upper.add("M");
+Style_Upper.add("Ɲ");
+Style_Upper.add("Ȏ");
+Style_Upper.add("Ƥ");
+Style_Upper.add("Ǫ");
+Style_Upper.add("Ʀ");
+Style_Upper.add("Ŝ");
+Style_Upper.add("Ⱦ");
+Style_Upper.add("Ư");
+Style_Upper.add("Ѵ");
+Style_Upper.add("W");
+Style_Upper.add("X");
+Style_Upper.add("Ɏ");
+Style_Upper.add("Ȥ");
 
 
 
@@ -1143,89 +1305,41 @@ public class Convert {
 
 
 
-Copperplate_Lower.add("🅰️");
-Copperplate_Lower.add("🅱️");
-Copperplate_Lower.add("🅲");
-Copperplate_Lower.add("🅳");
-Copperplate_Lower.add("🅴");
-Copperplate_Lower.add("🅵");
-Copperplate_Lower.add("🅶");
-Copperplate_Lower.add("🅷");
-Copperplate_Lower.add("🅸");
-Copperplate_Lower.add("🅹");
-Copperplate_Lower.add("🅺");
-Copperplate_Lower.add("🅻");
-Copperplate_Lower.add("🅼");
-Copperplate_Lower.add("🅽");
-Copperplate_Lower.add("🅾️");
-Copperplate_Lower.add("🅿️");
-Copperplate_Lower.add("🆀");
-Copperplate_Lower.add("🆁");
-Copperplate_Lower.add("🆂");
-Copperplate_Lower.add("🆃");
-Copperplate_Lower.add("🆄");
-Copperplate_Lower.add("🆅");
-Copperplate_Lower.add("🆆");
-Copperplate_Lower.add("🆇");
-Copperplate_Lower.add("🆈");
-Copperplate_Lower.add("🆉");
 
 
 
 
 
-
-
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 คЪcdεƒgʜ¡jкłɱหσpqяรtuvωxყz
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 αвc∂єƒgнιנкℓмηøρqɾšтυvωχчz
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ɐqɔpəɟɓɥıɾʞlɯuodbɹsʇnʌʍxʎz
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ค๖¢ɗεƒghiวkl๓noρqɾstนงωxฯz
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 αbcɗєƒghıȷkɭmησρqrstυѵωxyર
-
-ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ
-ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ค๒ς๔єŦﻮђเןкl๓ภ๏קợгรtยשฬאץz
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 åβçď£ƒğЋ!jķŁ๓ñ¤קợř§†µ√Ψ×ÿž
-
-Λß₡ÐΞŦGĦЇJКŁMÑΘPQЯ§TЦV₩Ж¥Z
-Λß₡ÐΞŦGĦЇJКŁMÑΘPQЯ§TЦV₩Ж¥Z
-
-ɅƁȻƊƸƑƓǶƗJƘŁMƝȎƤǪƦŜȾƯѴWXɎȤ
-ɅƁȻƊƸƑƓǶƗJƘŁMƝȎƤǪƦŜȾƯѴWXɎȤ
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡxʏᴢ
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 άвς∂έғģħίјķĻмήόρqŕşţùνώxчž
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Дþ¢Ð3ƒgђîjkℓм₪øÞQЯ§†û√w×¥ž
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abςdєŦﻮђijкlmnoקợгstuשwץאz
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ΛBCDΣFGΉIJKLMПӨPQЯSŦЦVЩXYZ
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ąβčď€ƒδЂίjЌℓ๓ŋ๏ρợя$ţµѵώж¥ź
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ∆бς∂∑ﾓбｻⅰﾉкﾚ㎡и◊ㄕqЯㄅ₮ㄩ√w×ㄚz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  */
