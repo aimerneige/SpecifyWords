@@ -573,129 +573,6 @@ public class Convert {
         return sb.toString();
     }
 
-    public static String convert2type8(String string_in) {
-        ArrayList<String> Style_Lower = new ArrayList<>();
-
-        Style_Lower.add("𝙖");
-        Style_Lower.add("𝙗");
-        Style_Lower.add("𝙘");
-        Style_Lower.add("𝙙");
-        Style_Lower.add("𝙚");
-        Style_Lower.add("𝙛");
-        Style_Lower.add("𝙜");
-        Style_Lower.add("𝙝");
-        Style_Lower.add("𝙞");
-        Style_Lower.add("𝙟");
-        Style_Lower.add("𝙠");
-        Style_Lower.add("𝙡");
-        Style_Lower.add("𝙢");
-        Style_Lower.add("𝙣");
-        Style_Lower.add("𝙤");
-        Style_Lower.add("𝙥");
-        Style_Lower.add("𝙦");
-        Style_Lower.add("𝙧");
-        Style_Lower.add("𝙨");
-        Style_Lower.add("𝙩");
-        Style_Lower.add("𝙪");
-        Style_Lower.add("𝙫");
-        Style_Lower.add("𝙬");
-        Style_Lower.add("𝙭");
-        Style_Lower.add("𝙮");
-        Style_Lower.add("𝙯");
-
-        StringBuilder sb = new StringBuilder();
-        for (char c : string_in.toCharArray()) {
-            if (c >= 'a' && c <= 'z') {
-                sb.append(Style_Lower.get(c - 'a'));
-            } else {
-                sb.append(c);
-            }
-        }
-        return sb.toString();
-    }
-
-    public static String convert2type9(String string_in) {
-        ArrayList<String> Style_Lower = new ArrayList<>();
-
-        Style_Lower.add("𝐚");
-        Style_Lower.add("𝐛");
-        Style_Lower.add("𝐜");
-        Style_Lower.add("𝐝");
-        Style_Lower.add("𝐞");
-        Style_Lower.add("𝐟");
-        Style_Lower.add("𝐠");
-        Style_Lower.add("𝐡");
-        Style_Lower.add("𝐢");
-        Style_Lower.add("𝐣");
-        Style_Lower.add("𝐤");
-        Style_Lower.add("𝐥");
-        Style_Lower.add("𝐦");
-        Style_Lower.add("𝐧");
-        Style_Lower.add("𝐨");
-        Style_Lower.add("𝐩");
-        Style_Lower.add("𝐪");
-        Style_Lower.add("𝐫");
-        Style_Lower.add("𝐬");
-        Style_Lower.add("𝐭");
-        Style_Lower.add("𝐮");
-        Style_Lower.add("𝐯");
-        Style_Lower.add("𝐰");
-        Style_Lower.add("𝐱");
-        Style_Lower.add("𝐲");
-        Style_Lower.add("𝐳");
-
-        StringBuilder sb = new StringBuilder();
-        for (char c : string_in.toCharArray()) {
-            if (c >= 'a' && c <= 'z') {
-                sb.append(Style_Lower.get(c - 'a'));
-            } else {
-                sb.append(c);
-            }
-        }
-        return sb.toString();
-    }
-
-    public static String convert2type10(String string_in) {
-        ArrayList<String> Style_Lower = new ArrayList<>();
-
-        Style_Lower.add("𝓪");
-        Style_Lower.add("𝓫");
-        Style_Lower.add("𝓬");
-        Style_Lower.add("𝓭");
-        Style_Lower.add("𝓮");
-        Style_Lower.add("𝓯");
-        Style_Lower.add("𝓰");
-        Style_Lower.add("𝓱");
-        Style_Lower.add("𝓲");
-        Style_Lower.add("𝓳");
-        Style_Lower.add("𝓴");
-        Style_Lower.add("𝓵");
-        Style_Lower.add("𝓶");
-        Style_Lower.add("𝓷");
-        Style_Lower.add("𝓸");
-        Style_Lower.add("𝓹");
-        Style_Lower.add("𝓺");
-        Style_Lower.add("𝓻");
-        Style_Lower.add("𝓼");
-        Style_Lower.add("𝓽");
-        Style_Lower.add("𝓾");
-        Style_Lower.add("𝓿");
-        Style_Lower.add("𝔀");
-        Style_Lower.add("𝔁");
-        Style_Lower.add("𝔂");
-        Style_Lower.add("𝔃");
-
-        StringBuilder sb = new StringBuilder();
-        for (char c : string_in.toCharArray()) {
-            if (c >= 'a' && c <= 'z') {
-                sb.append(Style_Lower.get(c - 'a'));
-            } else {
-                sb.append(c);
-            }
-        }
-        return sb.toString();
-    }
-
     public static String convert2type11(String string_in) {
         ArrayList<String> Style_Lower = new ArrayList<>();
 
@@ -1850,3 +1727,20 @@ public class Convert {
     }
 
 }
+
+
+
+/*
+𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ
+𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷
+
+𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩
+𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃
+
+𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅
+𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟
+
+𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ
+𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫
+
+*/
