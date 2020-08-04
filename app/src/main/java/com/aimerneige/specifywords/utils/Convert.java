@@ -1453,20 +1453,7 @@ public class Convert {
 
 
 
-
-
-}
-
-
-
-
-
-
-
-
-
-
-public static String convert2type26(String string_in) {
+public static String convert2type27(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 
     Style_Lower.add("ค");
@@ -1514,7 +1501,7 @@ public static String convert2type26(String string_in) {
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type28(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 
 
@@ -1563,7 +1550,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type29(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ค");
 Style_Lower.add("๒");
@@ -1610,7 +1597,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type30(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("å");
 Style_Lower.add("β");
@@ -1657,7 +1644,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type31(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ᴀ");
 Style_Lower.add("ʙ");
@@ -1704,7 +1691,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type32(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ά");
 Style_Lower.add("в");
@@ -1751,7 +1738,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type33(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("Д");
 Style_Lower.add("þ");
@@ -1798,7 +1785,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type34(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("a");
 Style_Lower.add("b");
@@ -1845,7 +1832,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type35(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("Λ");
 Style_Lower.add("B");
@@ -1892,7 +1879,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type36(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ą");
 Style_Lower.add("β");
@@ -1939,7 +1926,7 @@ return sb.toString();
 
 
 
-public static String convert2type26(String string_in) {
+public static String convert2type37(String string_in) {
     ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("∆");
 Style_Lower.add("б");
@@ -1981,3 +1968,4 @@ return sb.toString();
 }
 
 
+}
