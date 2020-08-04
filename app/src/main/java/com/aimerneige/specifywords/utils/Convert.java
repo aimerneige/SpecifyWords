@@ -5,8 +5,7 @@ import java.util.ArrayList;
 // Convert input string
 public class Convert {
 
-    // test done
-    public static String convert2style0(String string_in) {
+    public static String convert2type0(String string_in) {
         ArrayList<String> Style_Upper = new ArrayList<>();
         ArrayList<String> Style_Lower = new ArrayList<>();
 
