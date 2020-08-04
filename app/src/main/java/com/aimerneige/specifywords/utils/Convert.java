@@ -68,11 +68,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -141,11 +139,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -214,11 +210,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -287,11 +281,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -360,11 +352,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -433,11 +423,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -506,11 +494,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -579,11 +565,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -624,8 +608,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -666,8 +649,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -708,8 +690,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -750,8 +731,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -792,8 +772,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -834,8 +813,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -876,8 +854,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -918,8 +895,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -960,8 +936,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1002,8 +977,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1044,11 +1018,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1089,11 +1061,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1134,56 +1104,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
-                sb.append(c);
-            }
-        }
-        return sb.toString();
-    }
-
-    public static String convert2type20(String string_in) {
-        ArrayList<String> Style_Upper = new ArrayList<>();
-
-        Style_Upper.add("🅰️");
-        Style_Upper.add("🅱️");
-        Style_Upper.add("🅲");
-        Style_Upper.add("🅳");
-        Style_Upper.add("🅴");
-        Style_Upper.add("🅵");
-        Style_Upper.add("🅶");
-        Style_Upper.add("🅷");
-        Style_Upper.add("🅸");
-        Style_Upper.add("🅹");
-        Style_Upper.add("🅺");
-        Style_Upper.add("🅻");
-        Style_Upper.add("🅼");
-        Style_Upper.add("🅽");
-        Style_Upper.add("🅾️");
-        Style_Upper.add("🅿️");
-        Style_Upper.add("🆀");
-        Style_Upper.add("🆁");
-        Style_Upper.add("🆂");
-        Style_Upper.add("🆃");
-        Style_Upper.add("🆄");
-        Style_Upper.add("🆅");
-        Style_Upper.add("🆆");
-        Style_Upper.add("🆇");
-        Style_Upper.add("🆈");
-        Style_Upper.add("🆉");
-
-        StringBuilder sb = new StringBuilder();
-        for (char c : string_in.toCharArray()) {
-            if (c >= 'A' && c <= 'Z') {
-                sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
-                sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1224,11 +1147,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1269,11 +1190,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1314,11 +1233,9 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'A' && c <= 'Z') {
                 sb.append(Style_Upper.get(c - 'A'));
-            }
-            else if (c >= 'a' && c <= 'z') {
+            } else if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Upper.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1359,8 +1276,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1401,8 +1317,7 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
@@ -1443,529 +1358,496 @@ public class Convert {
         for (char c : string_in.toCharArray()) {
             if (c >= 'a' && c <= 'z') {
                 sb.append(Style_Lower.get(c - 'a'));
-            }
-            else {
+            } else {
                 sb.append(c);
             }
         }
         return sb.toString();
     }
 
+    public static String convert2type27(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
 
+        Style_Lower.add("ค");
+        Style_Lower.add("๖");
+        Style_Lower.add("¢");
+        Style_Lower.add("ɗ");
+        Style_Lower.add("ε");
+        Style_Lower.add("ƒ");
+        Style_Lower.add("g");
+        Style_Lower.add("h");
+        Style_Lower.add("i");
+        Style_Lower.add("ว");
+        Style_Lower.add("k");
+        Style_Lower.add("l");
+        Style_Lower.add("๓");
+        Style_Lower.add("n");
+        Style_Lower.add("o");
+        Style_Lower.add("ρ");
+        Style_Lower.add("q");
+        Style_Lower.add("ɾ");
+        Style_Lower.add("s");
+        Style_Lower.add("t");
+        Style_Lower.add("น");
+        Style_Lower.add("ง");
+        Style_Lower.add("ω");
+        Style_Lower.add("x");
+        Style_Lower.add("ฯ");
+        Style_Lower.add("z");
 
-public static String convert2type27(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-
-    Style_Lower.add("ค");
-    Style_Lower.add("๖");
-    Style_Lower.add("¢");
-    Style_Lower.add("ɗ");
-    Style_Lower.add("ε");
-    Style_Lower.add("ƒ");
-    Style_Lower.add("g");
-    Style_Lower.add("h");
-    Style_Lower.add("i");
-    Style_Lower.add("ว");
-    Style_Lower.add("k");
-    Style_Lower.add("l");
-    Style_Lower.add("๓");
-    Style_Lower.add("n");
-    Style_Lower.add("o");
-    Style_Lower.add("ρ");
-    Style_Lower.add("q");
-    Style_Lower.add("ɾ");
-    Style_Lower.add("s");
-    Style_Lower.add("t");
-    Style_Lower.add("น");
-    Style_Lower.add("ง");
-    Style_Lower.add("ω");
-    Style_Lower.add("x");
-    Style_Lower.add("ฯ");
-    Style_Lower.add("z");
-
-    StringBuilder sb = new StringBuilder();
-    for (char c : string_in.toCharArray()) {
-        if (c >= 'a' && c <= 'z') {
-            sb.append(Style_Lower.get(c - 'a'));
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
         }
-        else {
-            sb.append(c);
+        return sb.toString();
+    }
+
+    public static String convert2type28(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+
+        Style_Lower.add("α");
+        Style_Lower.add("b");
+        Style_Lower.add("c");
+        Style_Lower.add("ɗ");
+        Style_Lower.add("є");
+        Style_Lower.add("ƒ");
+        Style_Lower.add("g");
+        Style_Lower.add("h");
+        Style_Lower.add("ı");
+        Style_Lower.add("ȷ");
+        Style_Lower.add("k");
+        Style_Lower.add("ɭ");
+        Style_Lower.add("m");
+        Style_Lower.add("η");
+        Style_Lower.add("σ");
+        Style_Lower.add("ρ");
+        Style_Lower.add("q");
+        Style_Lower.add("r");
+        Style_Lower.add("s");
+        Style_Lower.add("t");
+        Style_Lower.add("υ");
+        Style_Lower.add("ѵ");
+        Style_Lower.add("ω");
+        Style_Lower.add("x");
+        Style_Lower.add("y");
+        Style_Lower.add("ર");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
         }
+        return sb.toString();
     }
-    return sb.toString();
-}
 
+    public static String convert2type29(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("ค");
+        Style_Lower.add("๒");
+        Style_Lower.add("ς");
+        Style_Lower.add("๔");
+        Style_Lower.add("є");
+        Style_Lower.add("Ŧ");
+        Style_Lower.add("ﻮ");
+        Style_Lower.add("ђ");
+        Style_Lower.add("เ");
+        Style_Lower.add("ן");
+        Style_Lower.add("к");
+        Style_Lower.add("l");
+        Style_Lower.add("๓");
+        Style_Lower.add("ภ");
+        Style_Lower.add("๏");
+        Style_Lower.add("ק");
+        Style_Lower.add("ợ");
+        Style_Lower.add("г");
+        Style_Lower.add("ร");
+        Style_Lower.add("t");
+        Style_Lower.add("ย");
+        Style_Lower.add("ש");
+        Style_Lower.add("ฬ");
+        Style_Lower.add("א");
+        Style_Lower.add("ץ");
+        Style_Lower.add("z");
 
-
-
-
-
-
-public static String convert2type28(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-
-
-Style_Lower.add("α");
-Style_Lower.add("b");
-Style_Lower.add("c");
-Style_Lower.add("ɗ");
-Style_Lower.add("є");
-Style_Lower.add("ƒ");
-Style_Lower.add("g");
-Style_Lower.add("h");
-Style_Lower.add("ı");
-Style_Lower.add("ȷ");
-Style_Lower.add("k");
-Style_Lower.add("ɭ");
-Style_Lower.add("m");
-Style_Lower.add("η");
-Style_Lower.add("σ");
-Style_Lower.add("ρ");
-Style_Lower.add("q");
-Style_Lower.add("r");
-Style_Lower.add("s");
-Style_Lower.add("t");
-Style_Lower.add("υ");
-Style_Lower.add("ѵ");
-Style_Lower.add("ω");
-Style_Lower.add("x");
-Style_Lower.add("y");
-Style_Lower.add("ર");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-    else {
-        sb.append(c);
+
+    public static String convert2type30(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("å");
+        Style_Lower.add("β");
+        Style_Lower.add("ç");
+        Style_Lower.add("ď");
+        Style_Lower.add("£");
+        Style_Lower.add("ƒ");
+        Style_Lower.add("ğ");
+        Style_Lower.add("Ћ");
+        Style_Lower.add("!");
+        Style_Lower.add("j");
+        Style_Lower.add("ķ");
+        Style_Lower.add("Ł");
+        Style_Lower.add("๓");
+        Style_Lower.add("ñ");
+        Style_Lower.add("¤");
+        Style_Lower.add("ק");
+        Style_Lower.add("ợ");
+        Style_Lower.add("ř");
+        Style_Lower.add("§");
+        Style_Lower.add("†");
+        Style_Lower.add("µ");
+        Style_Lower.add("√");
+        Style_Lower.add("Ψ");
+        Style_Lower.add("×");
+        Style_Lower.add("ÿ");
+        Style_Lower.add("ž");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-}
-return sb.toString();
-}
 
+    public static String convert2type31(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("ᴀ");
+        Style_Lower.add("ʙ");
+        Style_Lower.add("ᴄ");
+        Style_Lower.add("ᴅ");
+        Style_Lower.add("ᴇ");
+        Style_Lower.add("ғ");
+        Style_Lower.add("ɢ");
+        Style_Lower.add("ʜ");
+        Style_Lower.add("ɪ");
+        Style_Lower.add("ᴊ");
+        Style_Lower.add("ᴋ");
+        Style_Lower.add("ʟ");
+        Style_Lower.add("ᴍ");
+        Style_Lower.add("ɴ");
+        Style_Lower.add("ᴏ");
+        Style_Lower.add("ᴘ");
+        Style_Lower.add("ǫ");
+        Style_Lower.add("ʀ");
+        Style_Lower.add("ꜱ");
+        Style_Lower.add("ᴛ");
+        Style_Lower.add("ᴜ");
+        Style_Lower.add("ᴠ");
+        Style_Lower.add("ᴡ");
+        Style_Lower.add("x");
+        Style_Lower.add("ʏ");
+        Style_Lower.add("ᴢ");
 
-
-
-
-
-
-public static String convert2type29(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("ค");
-Style_Lower.add("๒");
-Style_Lower.add("ς");
-Style_Lower.add("๔");
-Style_Lower.add("є");
-Style_Lower.add("Ŧ");
-Style_Lower.add("ﻮ");
-Style_Lower.add("ђ");
-Style_Lower.add("เ");
-Style_Lower.add("ן");
-Style_Lower.add("к");
-Style_Lower.add("l");
-Style_Lower.add("๓");
-Style_Lower.add("ภ");
-Style_Lower.add("๏");
-Style_Lower.add("ק");
-Style_Lower.add("ợ");
-Style_Lower.add("г");
-Style_Lower.add("ร");
-Style_Lower.add("t");
-Style_Lower.add("ย");
-Style_Lower.add("ש");
-Style_Lower.add("ฬ");
-Style_Lower.add("א");
-Style_Lower.add("ץ");
-Style_Lower.add("z");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-    else {
-        sb.append(c);
+
+    public static String convert2type32(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("ά");
+        Style_Lower.add("в");
+        Style_Lower.add("ς");
+        Style_Lower.add("∂");
+        Style_Lower.add("έ");
+        Style_Lower.add("ғ");
+        Style_Lower.add("ģ");
+        Style_Lower.add("ħ");
+        Style_Lower.add("ί");
+        Style_Lower.add("ј");
+        Style_Lower.add("ķ");
+        Style_Lower.add("Ļ");
+        Style_Lower.add("м");
+        Style_Lower.add("ή");
+        Style_Lower.add("ό");
+        Style_Lower.add("ρ");
+        Style_Lower.add("q");
+        Style_Lower.add("ŕ");
+        Style_Lower.add("ş");
+        Style_Lower.add("ţ");
+        Style_Lower.add("ù");
+        Style_Lower.add("ν");
+        Style_Lower.add("ώ");
+        Style_Lower.add("x");
+        Style_Lower.add("ч");
+        Style_Lower.add("ž");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-}
-return sb.toString();
-}
 
+    public static String convert2type33(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("Д");
+        Style_Lower.add("þ");
+        Style_Lower.add("¢");
+        Style_Lower.add("Ð");
+        Style_Lower.add("3");
+        Style_Lower.add("ƒ");
+        Style_Lower.add("g");
+        Style_Lower.add("ђ");
+        Style_Lower.add("î");
+        Style_Lower.add("j");
+        Style_Lower.add("k");
+        Style_Lower.add("ℓ");
+        Style_Lower.add("м");
+        Style_Lower.add("₪");
+        Style_Lower.add("ø");
+        Style_Lower.add("Þ");
+        Style_Lower.add("Q");
+        Style_Lower.add("Я");
+        Style_Lower.add("§");
+        Style_Lower.add("†");
+        Style_Lower.add("û");
+        Style_Lower.add("√");
+        Style_Lower.add("w");
+        Style_Lower.add("×");
+        Style_Lower.add("¥");
+        Style_Lower.add("ž");
 
-
-
-
-
-
-public static String convert2type30(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("å");
-Style_Lower.add("β");
-Style_Lower.add("ç");
-Style_Lower.add("ď");
-Style_Lower.add("£");
-Style_Lower.add("ƒ");
-Style_Lower.add("ğ");
-Style_Lower.add("Ћ");
-Style_Lower.add("!");
-Style_Lower.add("j");
-Style_Lower.add("ķ");
-Style_Lower.add("Ł");
-Style_Lower.add("๓");
-Style_Lower.add("ñ");
-Style_Lower.add("¤");
-Style_Lower.add("ק");
-Style_Lower.add("ợ");
-Style_Lower.add("ř");
-Style_Lower.add("§");
-Style_Lower.add("†");
-Style_Lower.add("µ");
-Style_Lower.add("√");
-Style_Lower.add("Ψ");
-Style_Lower.add("×");
-Style_Lower.add("ÿ");
-Style_Lower.add("ž");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-    else {
-        sb.append(c);
+
+    public static String convert2type34(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("a");
+        Style_Lower.add("b");
+        Style_Lower.add("ς");
+        Style_Lower.add("d");
+        Style_Lower.add("є");
+        Style_Lower.add("Ŧ");
+        Style_Lower.add("ﻮ");
+        Style_Lower.add("ђ");
+        Style_Lower.add("i");
+        Style_Lower.add("j");
+        Style_Lower.add("к");
+        Style_Lower.add("l");
+        Style_Lower.add("m");
+        Style_Lower.add("n");
+        Style_Lower.add("o");
+        Style_Lower.add("ק");
+        Style_Lower.add("ợ");
+        Style_Lower.add("г");
+        Style_Lower.add("s");
+        Style_Lower.add("t");
+        Style_Lower.add("u");
+        Style_Lower.add("ש");
+        Style_Lower.add("w");
+        Style_Lower.add("ץ");
+        Style_Lower.add("א");
+        Style_Lower.add("z");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-}
-return sb.toString();
-}
 
+    public static String convert2type35(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("Λ");
+        Style_Lower.add("B");
+        Style_Lower.add("C");
+        Style_Lower.add("D");
+        Style_Lower.add("Σ");
+        Style_Lower.add("F");
+        Style_Lower.add("G");
+        Style_Lower.add("Ή");
+        Style_Lower.add("I");
+        Style_Lower.add("J");
+        Style_Lower.add("K");
+        Style_Lower.add("L");
+        Style_Lower.add("M");
+        Style_Lower.add("П");
+        Style_Lower.add("Ө");
+        Style_Lower.add("P");
+        Style_Lower.add("Q");
+        Style_Lower.add("Я");
+        Style_Lower.add("S");
+        Style_Lower.add("Ŧ");
+        Style_Lower.add("Ц");
+        Style_Lower.add("V");
+        Style_Lower.add("Щ");
+        Style_Lower.add("X");
+        Style_Lower.add("Y");
+        Style_Lower.add("Z");
 
-
-
-
-
-
-public static String convert2type31(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("ᴀ");
-Style_Lower.add("ʙ");
-Style_Lower.add("ᴄ");
-Style_Lower.add("ᴅ");
-Style_Lower.add("ᴇ");
-Style_Lower.add("ғ");
-Style_Lower.add("ɢ");
-Style_Lower.add("ʜ");
-Style_Lower.add("ɪ");
-Style_Lower.add("ᴊ");
-Style_Lower.add("ᴋ");
-Style_Lower.add("ʟ");
-Style_Lower.add("ᴍ");
-Style_Lower.add("ɴ");
-Style_Lower.add("ᴏ");
-Style_Lower.add("ᴘ");
-Style_Lower.add("ǫ");
-Style_Lower.add("ʀ");
-Style_Lower.add("ꜱ");
-Style_Lower.add("ᴛ");
-Style_Lower.add("ᴜ");
-Style_Lower.add("ᴠ");
-Style_Lower.add("ᴡ");
-Style_Lower.add("x");
-Style_Lower.add("ʏ");
-Style_Lower.add("ᴢ");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-    else {
-        sb.append(c);
+
+    public static String convert2type36(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("ą");
+        Style_Lower.add("β");
+        Style_Lower.add("č");
+        Style_Lower.add("ď");
+        Style_Lower.add("€");
+        Style_Lower.add("ƒ");
+        Style_Lower.add("δ");
+        Style_Lower.add("Ђ");
+        Style_Lower.add("ί");
+        Style_Lower.add("j");
+        Style_Lower.add("Ќ");
+        Style_Lower.add("ℓ");
+        Style_Lower.add("๓");
+        Style_Lower.add("ŋ");
+        Style_Lower.add("๏");
+        Style_Lower.add("ρ");
+        Style_Lower.add("ợ");
+        Style_Lower.add("я");
+        Style_Lower.add("$");
+        Style_Lower.add("ţ");
+        Style_Lower.add("µ");
+        Style_Lower.add("ѵ");
+        Style_Lower.add("ώ");
+        Style_Lower.add("ж");
+        Style_Lower.add("¥");
+        Style_Lower.add("ź");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-}
-return sb.toString();
-}
 
+    public static String convert2type37(String string_in) {
+        ArrayList<String> Style_Lower = new ArrayList<>();
+        Style_Lower.add("∆");
+        Style_Lower.add("б");
+        Style_Lower.add("ς");
+        Style_Lower.add("∂");
+        Style_Lower.add("∑");
+        Style_Lower.add("ﾓ");
+        Style_Lower.add("б");
+        Style_Lower.add("ｻ");
+        Style_Lower.add("ⅰ");
+        Style_Lower.add("ﾉ");
+        Style_Lower.add("к");
+        Style_Lower.add("ﾚ");
+        Style_Lower.add("㎡");
+        Style_Lower.add("и");
+        Style_Lower.add("◊");
+        Style_Lower.add("ㄕ");
+        Style_Lower.add("q");
+        Style_Lower.add("Я");
+        Style_Lower.add("ㄅ");
+        Style_Lower.add("₮");
+        Style_Lower.add("ㄩ");
+        Style_Lower.add("√");
+        Style_Lower.add("w");
+        Style_Lower.add("×");
+        Style_Lower.add("ㄚ");
+        Style_Lower.add("z");
 
-
-
-
-
-
-public static String convert2type32(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("ά");
-Style_Lower.add("в");
-Style_Lower.add("ς");
-Style_Lower.add("∂");
-Style_Lower.add("έ");
-Style_Lower.add("ғ");
-Style_Lower.add("ģ");
-Style_Lower.add("ħ");
-Style_Lower.add("ί");
-Style_Lower.add("ј");
-Style_Lower.add("ķ");
-Style_Lower.add("Ļ");
-Style_Lower.add("м");
-Style_Lower.add("ή");
-Style_Lower.add("ό");
-Style_Lower.add("ρ");
-Style_Lower.add("q");
-Style_Lower.add("ŕ");
-Style_Lower.add("ş");
-Style_Lower.add("ţ");
-Style_Lower.add("ù");
-Style_Lower.add("ν");
-Style_Lower.add("ώ");
-Style_Lower.add("x");
-Style_Lower.add("ч");
-Style_Lower.add("ž");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Lower.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-    else {
-        sb.append(c);
+
+    public static String convert2type38(String string_in) {
+        ArrayList<String> Style_Upper = new ArrayList<>();
+
+        Style_Upper.add("🅰️");
+        Style_Upper.add("🅱️");
+        Style_Upper.add("🅲");
+        Style_Upper.add("🅳");
+        Style_Upper.add("🅴");
+        Style_Upper.add("🅵");
+        Style_Upper.add("🅶");
+        Style_Upper.add("🅷");
+        Style_Upper.add("🅸");
+        Style_Upper.add("🅹");
+        Style_Upper.add("🅺");
+        Style_Upper.add("🅻");
+        Style_Upper.add("🅼");
+        Style_Upper.add("🅽");
+        Style_Upper.add("🅾️");
+        Style_Upper.add("🅿️");
+        Style_Upper.add("🆀");
+        Style_Upper.add("🆁");
+        Style_Upper.add("🆂");
+        Style_Upper.add("🆃");
+        Style_Upper.add("🆄");
+        Style_Upper.add("🆅");
+        Style_Upper.add("🆆");
+        Style_Upper.add("🆇");
+        Style_Upper.add("🆈");
+        Style_Upper.add("🆉");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'A' && c <= 'Z') {
+                sb.append(Style_Upper.get(c - 'A'));
+            } else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
     }
-}
-return sb.toString();
-}
-
-
-
-
-
-
-
-public static String convert2type33(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("Д");
-Style_Lower.add("þ");
-Style_Lower.add("¢");
-Style_Lower.add("Ð");
-Style_Lower.add("3");
-Style_Lower.add("ƒ");
-Style_Lower.add("g");
-Style_Lower.add("ђ");
-Style_Lower.add("î");
-Style_Lower.add("j");
-Style_Lower.add("k");
-Style_Lower.add("ℓ");
-Style_Lower.add("м");
-Style_Lower.add("₪");
-Style_Lower.add("ø");
-Style_Lower.add("Þ");
-Style_Lower.add("Q");
-Style_Lower.add("Я");
-Style_Lower.add("§");
-Style_Lower.add("†");
-Style_Lower.add("û");
-Style_Lower.add("√");
-Style_Lower.add("w");
-Style_Lower.add("×");
-Style_Lower.add("¥");
-Style_Lower.add("ž");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
-    }
-    else {
-        sb.append(c);
-    }
-}
-return sb.toString();
-}
-
-
-
-
-
-
-
-public static String convert2type34(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("a");
-Style_Lower.add("b");
-Style_Lower.add("ς");
-Style_Lower.add("d");
-Style_Lower.add("є");
-Style_Lower.add("Ŧ");
-Style_Lower.add("ﻮ");
-Style_Lower.add("ђ");
-Style_Lower.add("i");
-Style_Lower.add("j");
-Style_Lower.add("к");
-Style_Lower.add("l");
-Style_Lower.add("m");
-Style_Lower.add("n");
-Style_Lower.add("o");
-Style_Lower.add("ק");
-Style_Lower.add("ợ");
-Style_Lower.add("г");
-Style_Lower.add("s");
-Style_Lower.add("t");
-Style_Lower.add("u");
-Style_Lower.add("ש");
-Style_Lower.add("w");
-Style_Lower.add("ץ");
-Style_Lower.add("א");
-Style_Lower.add("z");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
-    }
-    else {
-        sb.append(c);
-    }
-}
-return sb.toString();
-}
-
-
-
-
-
-
-
-public static String convert2type35(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("Λ");
-Style_Lower.add("B");
-Style_Lower.add("C");
-Style_Lower.add("D");
-Style_Lower.add("Σ");
-Style_Lower.add("F");
-Style_Lower.add("G");
-Style_Lower.add("Ή");
-Style_Lower.add("I");
-Style_Lower.add("J");
-Style_Lower.add("K");
-Style_Lower.add("L");
-Style_Lower.add("M");
-Style_Lower.add("П");
-Style_Lower.add("Ө");
-Style_Lower.add("P");
-Style_Lower.add("Q");
-Style_Lower.add("Я");
-Style_Lower.add("S");
-Style_Lower.add("Ŧ");
-Style_Lower.add("Ц");
-Style_Lower.add("V");
-Style_Lower.add("Щ");
-Style_Lower.add("X");
-Style_Lower.add("Y");
-Style_Lower.add("Z");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
-    }
-    else {
-        sb.append(c);
-    }
-}
-return sb.toString();
-}
-
-
-
-
-
-
-
-public static String convert2type36(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("ą");
-Style_Lower.add("β");
-Style_Lower.add("č");
-Style_Lower.add("ď");
-Style_Lower.add("€");
-Style_Lower.add("ƒ");
-Style_Lower.add("δ");
-Style_Lower.add("Ђ");
-Style_Lower.add("ί");
-Style_Lower.add("j");
-Style_Lower.add("Ќ");
-Style_Lower.add("ℓ");
-Style_Lower.add("๓");
-Style_Lower.add("ŋ");
-Style_Lower.add("๏");
-Style_Lower.add("ρ");
-Style_Lower.add("ợ");
-Style_Lower.add("я");
-Style_Lower.add("$");
-Style_Lower.add("ţ");
-Style_Lower.add("µ");
-Style_Lower.add("ѵ");
-Style_Lower.add("ώ");
-Style_Lower.add("ж");
-Style_Lower.add("¥");
-Style_Lower.add("ź");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
-    }
-    else {
-        sb.append(c);
-    }
-}
-return sb.toString();
-}
-
-
-
-
-
-
-
-public static String convert2type37(String string_in) {
-    ArrayList<String> Style_Lower = new ArrayList<>();
-Style_Lower.add("∆");
-Style_Lower.add("б");
-Style_Lower.add("ς");
-Style_Lower.add("∂");
-Style_Lower.add("∑");
-Style_Lower.add("ﾓ");
-Style_Lower.add("б");
-Style_Lower.add("ｻ");
-Style_Lower.add("ⅰ");
-Style_Lower.add("ﾉ");
-Style_Lower.add("к");
-Style_Lower.add("ﾚ");
-Style_Lower.add("㎡");
-Style_Lower.add("и");
-Style_Lower.add("◊");
-Style_Lower.add("ㄕ");
-Style_Lower.add("q");
-Style_Lower.add("Я");
-Style_Lower.add("ㄅ");
-Style_Lower.add("₮");
-Style_Lower.add("ㄩ");
-Style_Lower.add("√");
-Style_Lower.add("w");
-Style_Lower.add("×");
-Style_Lower.add("ㄚ");
-Style_Lower.add("z");
-
-StringBuilder sb = new StringBuilder();
-for (char c : string_in.toCharArray()) {
-    if (c >= 'a' && c <= 'z') {
-        sb.append(Style_Lower.get(c - 'a'));
-    }
-    else {
-        sb.append(c);
-    }
-}
-return sb.toString();
-}
-
 
 }
