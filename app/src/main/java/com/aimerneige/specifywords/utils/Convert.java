@@ -1463,32 +1463,59 @@ public class Convert {
 
 
 
-Style_Lower.add("ค");
-Style_Lower.add("๖");
-Style_Lower.add("¢");
-Style_Lower.add("ɗ");
-Style_Lower.add("ε");
-Style_Lower.add("ƒ");
-Style_Lower.add("g");
-Style_Lower.add("h");
-Style_Lower.add("i");
-Style_Lower.add("ว");
-Style_Lower.add("k");
-Style_Lower.add("l");
-Style_Lower.add("๓");
-Style_Lower.add("n");
-Style_Lower.add("o");
-Style_Lower.add("ρ");
-Style_Lower.add("q");
-Style_Lower.add("ɾ");
-Style_Lower.add("s");
-Style_Lower.add("t");
-Style_Lower.add("น");
-Style_Lower.add("ง");
-Style_Lower.add("ω");
-Style_Lower.add("x");
-Style_Lower.add("ฯ");
-Style_Lower.add("z");
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
+
+    Style_Lower.add("ค");
+    Style_Lower.add("๖");
+    Style_Lower.add("¢");
+    Style_Lower.add("ɗ");
+    Style_Lower.add("ε");
+    Style_Lower.add("ƒ");
+    Style_Lower.add("g");
+    Style_Lower.add("h");
+    Style_Lower.add("i");
+    Style_Lower.add("ว");
+    Style_Lower.add("k");
+    Style_Lower.add("l");
+    Style_Lower.add("๓");
+    Style_Lower.add("n");
+    Style_Lower.add("o");
+    Style_Lower.add("ρ");
+    Style_Lower.add("q");
+    Style_Lower.add("ɾ");
+    Style_Lower.add("s");
+    Style_Lower.add("t");
+    Style_Lower.add("น");
+    Style_Lower.add("ง");
+    Style_Lower.add("ω");
+    Style_Lower.add("x");
+    Style_Lower.add("ฯ");
+    Style_Lower.add("z");
+
+    StringBuilder sb = new StringBuilder();
+    for (char c : string_in.toCharArray()) {
+        if (c >= 'a' && c <= 'z') {
+            sb.append(Style_Lower.get(c - 'a'));
+        }
+        else {
+            sb.append(c);
+        }
+    }
+    return sb.toString();
+}
+
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 
 
 Style_Lower.add("α");
@@ -1518,7 +1545,26 @@ Style_Lower.add("x");
 Style_Lower.add("y");
 Style_Lower.add("ર");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ค");
 Style_Lower.add("๒");
 Style_Lower.add("ς");
@@ -1546,7 +1592,26 @@ Style_Lower.add("א");
 Style_Lower.add("ץ");
 Style_Lower.add("z");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("å");
 Style_Lower.add("β");
 Style_Lower.add("ç");
@@ -1574,7 +1639,26 @@ Style_Lower.add("×");
 Style_Lower.add("ÿ");
 Style_Lower.add("ž");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ᴀ");
 Style_Lower.add("ʙ");
 Style_Lower.add("ᴄ");
@@ -1602,7 +1686,26 @@ Style_Lower.add("x");
 Style_Lower.add("ʏ");
 Style_Lower.add("ᴢ");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ά");
 Style_Lower.add("в");
 Style_Lower.add("ς");
@@ -1630,7 +1733,26 @@ Style_Lower.add("x");
 Style_Lower.add("ч");
 Style_Lower.add("ž");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("Д");
 Style_Lower.add("þ");
 Style_Lower.add("¢");
@@ -1658,7 +1780,26 @@ Style_Lower.add("×");
 Style_Lower.add("¥");
 Style_Lower.add("ž");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("a");
 Style_Lower.add("b");
 Style_Lower.add("ς");
@@ -1686,7 +1827,26 @@ Style_Lower.add("ץ");
 Style_Lower.add("א");
 Style_Lower.add("z");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("Λ");
 Style_Lower.add("B");
 Style_Lower.add("C");
@@ -1714,7 +1874,26 @@ Style_Lower.add("X");
 Style_Lower.add("Y");
 Style_Lower.add("Z");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("ą");
 Style_Lower.add("β");
 Style_Lower.add("č");
@@ -1742,7 +1921,26 @@ Style_Lower.add("ж");
 Style_Lower.add("¥");
 Style_Lower.add("ź");
 
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
 
+
+
+
+
+
+
+public static String convert2type26(String string_in) {
+    ArrayList<String> Style_Lower = new ArrayList<>();
 Style_Lower.add("∆");
 Style_Lower.add("б");
 Style_Lower.add("ς");
@@ -1769,3 +1967,17 @@ Style_Lower.add("w");
 Style_Lower.add("×");
 Style_Lower.add("ㄚ");
 Style_Lower.add("z");
+
+StringBuilder sb = new StringBuilder();
+for (char c : string_in.toCharArray()) {
+    if (c >= 'a' && c <= 'z') {
+        sb.append(Style_Lower.get(c - 'a'));
+    }
+    else {
+        sb.append(c);
+    }
+}
+return sb.toString();
+}
+
+
