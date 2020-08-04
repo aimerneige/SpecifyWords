@@ -1190,7 +1190,7 @@ public class Convert {
         return sb.toString();
     }
 
-    public static String convert2type20(String string_in) {
+    public static String convert2type21(String string_in) {
         ArrayList<String> Style_Upper = new ArrayList<>();
 
         Style_Upper.add("Λ");
@@ -1235,42 +1235,62 @@ public class Convert {
         return sb.toString();
     }
 
+    public static String convert2type22(String string_in) {
+        ArrayList<String> Style_Upper = new ArrayList<>();
 
+        Style_Upper.add("ⓐ");
+        Style_Upper.add("ⓑ");
+        Style_Upper.add("ⓒ");
+        Style_Upper.add("ⓓ");
+        Style_Upper.add("ⓔ");
+        Style_Upper.add("ⓕ");
+        Style_Upper.add("ⓖ");
+        Style_Upper.add("ⓗ");
+        Style_Upper.add("ⓘ");
+        Style_Upper.add("ⓙ");
+        Style_Upper.add("ⓚ");
+        Style_Upper.add("ⓛ");
+        Style_Upper.add("ⓜ");
+        Style_Upper.add("ⓝ");
+        Style_Upper.add("ⓞ");
+        Style_Upper.add("ⓟ");
+        Style_Upper.add("ⓠ");
+        Style_Upper.add("ⓡ");
+        Style_Upper.add("ⓢ");
+        Style_Upper.add("ⓣ");
+        Style_Upper.add("ⓤ");
+        Style_Upper.add("ⓥ");
+        Style_Upper.add("ⓦ");
+        Style_Upper.add("ⓧ");
+        Style_Upper.add("ⓨ");
+        Style_Upper.add("ⓩ");
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : string_in.toCharArray()) {
+            if (c >= 'A' && c <= 'Z') {
+                sb.append(Style_Upper.get(c - 'A'));
+            }
+            else if (c >= 'a' && c <= 'z') {
+                sb.append(Style_Upper.get(c - 'a'));
+            }
+            else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
 
 }
 
 
 
+
+
+
+
+
+
 /*
-
-Style_Upper.add("ⓐ");
-Style_Upper.add("ⓑ");
-Style_Upper.add("ⓒ");
-Style_Upper.add("ⓓ");
-Style_Upper.add("ⓔ");
-Style_Upper.add("ⓕ");
-Style_Upper.add("ⓖ");
-Style_Upper.add("ⓗ");
-Style_Upper.add("ⓘ");
-Style_Upper.add("ⓙ");
-Style_Upper.add("ⓚ");
-Style_Upper.add("ⓛ");
-Style_Upper.add("ⓜ");
-Style_Upper.add("ⓝ");
-Style_Upper.add("ⓞ");
-Style_Upper.add("ⓟ");
-Style_Upper.add("ⓠ");
-Style_Upper.add("ⓡ");
-Style_Upper.add("ⓢ");
-Style_Upper.add("ⓣ");
-Style_Upper.add("ⓤ");
-Style_Upper.add("ⓥ");
-Style_Upper.add("ⓦ");
-Style_Upper.add("ⓧ");
-Style_Upper.add("ⓨ");
-Style_Upper.add("ⓩ");
-
-
 
 Style_Upper.add("Ʌ");
 Style_Upper.add("Ɓ");
@@ -1298,13 +1318,6 @@ Style_Upper.add("W");
 Style_Upper.add("X");
 Style_Upper.add("Ɏ");
 Style_Upper.add("Ȥ");
-
-
-
-
-
-
-
 
 
 
